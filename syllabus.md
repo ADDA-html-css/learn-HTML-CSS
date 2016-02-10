@@ -15,8 +15,26 @@ As with any learning experience, you are going to get out of this course what yo
 
 ## Rough Calendar
 **Week 1**
+- Getting to know the html/css stack
+- Basic HTML
+- A glimpse of CSS
+
+[homework](add link)
+
 **Week 2**
+- Class v. Div
+- Understanding the box model
+- CSS display property.
+- CSS background properties
+- CSS colors
+- Laying out a page
+
 **Week 3**
+- CSS positioning
+- Grid layouts
+- Flexbox 
+- Floats
+
 **Week 4**
 **Week 5**
 **Week 6**

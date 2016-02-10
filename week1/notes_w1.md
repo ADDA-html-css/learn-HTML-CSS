@@ -65,5 +65,23 @@ Why CSS? What does CSS do for us?
 - show how to do a link
 - show how to do an image
 
+### Mini-Lesson 3
+- linking to other files
+- linking to css file
+- add some basic styling on html tags
+
+## HW
+- Read article
+- Add more to your personal site. 3 pages
+	1. index.html, start page with a little about you. include an image.
+	2. goals.html, a list of your learning goals for this course.
+	3. contact.html, a page with directions how to get in contact with you. 
+	**Bonus**, add a link that when clicked opens an email program already populated with a custom subject.
+- wireframe for personal site
+- Open the inspector on any webpage. Reflect on the 
+following questions. What do you see that is familiar? What do you see that confuses you? Did you pick up anything new?
+
+
+
 
 
