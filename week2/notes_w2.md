@@ -2,33 +2,72 @@
 
 ## Objectives
 - I can investigate and build layouts using the CSS "Box Model" 
+- I can investigate how the display property effects an element
 - I can explain and use the different CSS positioning styles
 - 
 
 ## Housekeeping 
-- Setup class repo in git, may be difficult if not all have macs
-
+- Using github desktop
+- Download app
+- go to class [repo](https://github.com/awdriggs-html-css/spring16)
+- create a fork
+- clone that fork in desktop, make it go to the location you want to work in on your computer
 
 ## Do Now
+Find the error!
+```html
+<body>
+	<h2>My Weekend Plans
+		<ul>
+			<li>sleep</li>
+			<li>watch tv</li>
+			<li>eat good food
+		<ol>
+</body>
+```
 
 ## Stand-up
 - Successes?
 - Struggles?
-- Next Steps?
+- Show and Tell!
 
 ## Mini-Lesson 1, classes
 ```html
-<div id="header">
-	<h1>Class v. IDs</p>
-</div>
+<html>
+<head>
+	<title>Class V. ID</title>
+	<link rel="stylesheet" type="text/css" href="idAndClass.css">
+</head>
+<body>
+	<div id="titleDiv">
+		<h1>Class v. IDs</p>
+	</div>
 
-<div class="red">
-	<p>red text<p>
-	<p class="blue">red text?</p>
-</div>
+	<div class="red">
+		<p>red text<p>
+			<p class="blue">red text?</p>
+	</div>
 
-<h2 class="red">A red header</h2>
-<a href="http://www.facebook.com" class="red">A red link</a>
+	<h2 class="red">A red header</h2>
+	<a href="http://www.facebook.com" class="red">A red link</a>
+
+</body>
+</html>
+
+```
+
+```css
+	#titleDiv{
+		color: green;
+	}
+
+	.red{
+		color: red;
+	}
+
+	.blue{
+	background-color: blue;
+	}
 ```
 
 - There should be only one of any given ID
@@ -56,20 +95,103 @@ Have two divs that are next to each other, have students open up the inspector o
 - Make the margin larger. What happens? Return to normal.
 - Formulate a theory of what is happening.
 
-Have a discussion. Show a computed example.
-http://www.sitepoint.com/web-foundations/css-box-model/
+Bonus: add a css property, `box-sizing: border-box;` to one of the elements, now change the padding and margin. What happens now?
 
-## Mini-Lesson 3, CSS Positioning
-- Fixed
-- Relative
-- Absolute
+Have a discussion. Show a computed [example](http://www.sitepoint.com/web-foundations/css-box-model/)
+
+**Cool Trick**
+```css
+* {
+   border: 1px solid red !important;
+}
+```
+## Mini-Lesson 3, display
+- inline
+- block
+- inline-block
+- display none;
+- visibility: none;
 
 ### Exercise 3
+
+Starter Code
+```html
+<html>
+<head>
+	<title>Display Exercise</title>
+	<link rel="stylesheet" type="text/css" href="display.css">
+</head>
+<body>
+	<div id ='one' class='box'>
+		one
+	</div>
+
+	<div id ='two' class='box'>
+		two
+	</div>
+
+	<div id ='three' class='box'>
+		three
+	</div>
+
+	<div id ='four' class='box'>
+		four
+	</div>
+
+	<div id ='five' class='box'>
+		five
+	</div>
+
+	<ul>
+			<li>pizza</li>
+			<li>calzone</li>
+			<li>pasta</li>
+	</ul>
+</body>
+</html>
+```
+
+Part 1
+1. Style the box class 
+	- width and height of 200px
+	- a backgound color
+	- add a border
+2. Open in browser, what do you see?
+3. Add a `display: inline;` to the box class. What do you see?
+4. Change to `display: inline-block;` What do you see now?
+5. Target an individual box, change the display to the different options, what's happening?
+6. Target an individual box, change to `display: none;` what happened?
+7. Remove the `display: none;` add `visibility: hidden` what happened?
+
+Part 2
+1. Target the list items `li`
+	- add a background color
+	- add a width and a height
+2. load in browser, what do you see?
+3. Change the display to the different options, what happens?
+
+Possible Responses
+1. boxes stacked on top of each other
+2. boxes are small, only take up the width of the text
+3. now boxes are spread across the screen
+4. When a single element is changed to block, it breaks the flow of the other boxes
+
+## Mini-Lesson 4, CSS Positioning
+- static, default
+- Relative, relative to the surrounding elements
+- Absolute, takes out of flow,
+- Fixed, doesn't move, fixed inside the window
+
+### Exercise 4
 ** recreate the ipod**
 
-## Mini-Lesson 4, Color?
-** venn diagram? transparent color
 
+## HW
+1. Continue working on your personal site.
+	- Create a inline menu from list items. BONUS! Add a sweet menu to your personal page.
+	- Add a footer that sticks to the bottom of you page
+2. Make the craziest layout that you can! Make it annoying! Stack divs on top of each other. Use the different positioning techniques. Make some fixed content. 
+3. Review CSS Positioning! Watch this [video](https://css-tricks.com/video-screencasts/110-quick-overview-of-css-position-values/)
 
 
 
