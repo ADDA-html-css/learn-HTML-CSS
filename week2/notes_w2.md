@@ -4,7 +4,7 @@
 - I can investigate and build layouts using the CSS "Box Model" 
 - I can investigate how the display property effects an element
 - I can explain and use the different CSS positioning styles
-- 
+- I can use nested targets.
 
 ## Housekeeping 
 - Using github desktop
@@ -182,16 +182,58 @@ Possible Responses
 - Absolute, takes out of flow,
 - Fixed, doesn't move, fixed inside the window
 
+```
+.demo button{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+```
+
+fix the footer
+```css
+	.footer{
+		background: #BADA55;
+		width: 100%;
+		height: 120px;
+		text-align: center;
+		position: fixed;
+		bottom: 0;
+	}
+```
+
+Add a margin to the bottom of the body, otherwise text will be covered up.
+```css
+body{
+	margin-bottom: 120px;
+}
+```
+
 ### Exercise 4
-** recreate the ipod**
+
 
 
 ## HW
-1. Continue working on your personal site.
-	- Create a inline menu from list items. BONUS! Add a sweet menu to your personal page.
-	- Add a footer that sticks to the bottom of you page
-2. Make the craziest layout that you can! Make it annoying! Stack divs on top of each other. Use the different positioning techniques. Make some fixed content. 
-3. Review CSS Positioning! Watch this [video](https://css-tricks.com/video-screencasts/110-quick-overview-of-css-position-values/)
+
+### Continue working on your personal site.
+- Create a inline menu from list items.
+- Add a footer that sticks to the bottom of you page
+
+### Practice CSS Positioning
+![Example Layout](http://designshack.net/wp-content/uploads/layoutideas-1-1.jpg)
+Build this layout from scratch.
+
+Bonus! Add content. Make one of the images a circle.
+
+### Review CSS Positioning! 
+Watch this [video](https://css-tricks.com/video-screencasts/110-quick-overview-of-css-position-values/)
+
+## Extra Resources
++ Watch [HTML - Hamburger Text Markup Language](http://www.dontfeartheinternet.com/html/html) (3:35)
++ Watch [Don't Fear the Browser - Developer Tools & Vanilla Ice Cream](http://www.dontfeartheinternet.com/html/html) (3:35)
++ Read [Building Your First Web Page](http://learn.shayhowe.com/html-css/building-your-first-web-page/)
++ Watch [Don't Fear Starting from Scratch Part 1: HTML](http://www.dontfeartheinternet.com/html/don%E2%80%99t-fear-starting-from-scratch)
++ Watch [Don't Fear Starting from Scratch Part 2: CSS](http://www.dontfeartheinternet.com/css/don%E2%80%99t-fear-starting-from-scratch-2)
 
 
 

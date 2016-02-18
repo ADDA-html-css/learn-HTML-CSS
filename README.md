@@ -11,15 +11,18 @@
 [Class Presentation](https://docs.google.com/presentation/d/1kMzZlsrgdeMjtAOK6AVs8Q8V0rqQg_akyTaFgHoNiEo/edit?usp=sharing)
 
 **Week 2**
-- Class v. Div
+- Class v. ID
 - Understanding the box model
-- CSS display property.
-- CSS background properties
+- CSS display property
 - CSS colors
-- Laying out a page
+- CSS positioning
+
+[Homework](https://github.com/awdriggs-html-css/spring16/blob/master/week2/README.md)
+
+[Class Presentation](https://docs.google.com/presentation/d/15qZMwHLy1dfYVitkMSCTMsukW7i6WowRBG5wQ6vbj-E/edit?usp=sharing)
 
 **Week 3**
-- CSS positioning
-- Grid layouts
-- Flexbox 
 - Floats
+- Grid layouts
+- Laying out a page
+- Flexbox 
