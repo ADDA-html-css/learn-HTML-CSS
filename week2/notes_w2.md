@@ -210,8 +210,49 @@ body{
 ```
 
 ### Exercise 4
+ipod challenge
 
-
+```html
+	<html>
+  <head>
+    <title>Cool CSS</title>
+    <link rel="stylesheet" href="style.css" ></script>
+  </head>
+  <body>
+  
+  <div id="ipod_body">
+    <div id="screen">
+      <div id="top_bar">
+        <h6>Now Playing</h6>
+        <div id="battery">
+        </div>
+      </div>
+      <ul id="selection_list">
+        <li>Music</li>
+        <li>Video</li>
+        <li>Photos</li>
+        <li>Podcasts</li>
+        <li>Extras</li>
+        <li>Settings</li>
+        <li>Shuffle Songs</li>
+        <li>Now Playing</li>
+      </ul>
+    </div>
+    <div id="wheel">
+      <div id="menu"><h4>Menu</h4></div>
+      <div id="forward"><h4>|>></h4></div>
+      <div id="back"><h4><<|</h4></div>
+      <div id="inner_wheel">
+    </div>
+      <div id="play">
+        <h4>>||</h4>
+      </div>
+    </div>
+  </div>  
+  
+  </body>
+</html>
+```
 
 ## HW
 
@@ -229,7 +270,6 @@ Bonus! Add content. Make one of the images a circle.
 Watch this [video](https://css-tricks.com/video-screencasts/110-quick-overview-of-css-position-values/)
 
 ## Extra Resources
-+ Watch [HTML - Hamburger Text Markup Language](http://www.dontfeartheinternet.com/html/html) (3:35)
 + Watch [Don't Fear the Browser - Developer Tools & Vanilla Ice Cream](http://www.dontfeartheinternet.com/html/html) (3:35)
 + Read [Building Your First Web Page](http://learn.shayhowe.com/html-css/building-your-first-web-page/)
 + Watch [Don't Fear Starting from Scratch Part 1: HTML](http://www.dontfeartheinternet.com/html/don%E2%80%99t-fear-starting-from-scratch)
