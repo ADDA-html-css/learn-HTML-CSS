@@ -1,0 +1,21 @@
+.box{
+	width: 200px;
+	height: 200px;
+	background-color: #BADA55;
+	border: 1px dashed black;
+	display: inline-block;
+	margin: 10px;
+}
+
+#two:hover{
+	background-color: blue;
+}
+
+ul{
+	text-align: center;
+}
+li{
+	display: inline-block;
+	width: 300px;
+	background-color: pink;
+}

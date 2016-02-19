@@ -10,10 +10,23 @@
 	background-color: #BADA55;
 	width: 200px;
 	height: 200px;
-	position: relative;
+	position: fixed;
 	opacity: 0.5;
+	right: 500px;
+
+	border-radius: 10;
 }
 
+.demo button{
+	position: absolute;
+	top: 10px;
+	right:10px;
+
+	display: block;
+	width:100px;
+
+
+}
 
 
 .footer{
@@ -23,6 +36,7 @@
 	text-align: center;
 	position: fixed;
 	bottom: 0;
+	opacity: 0.5;
 }
 
 body{
