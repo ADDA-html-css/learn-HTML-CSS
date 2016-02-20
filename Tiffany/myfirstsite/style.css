@@ -1,0 +1,44 @@
+body{
+	background-color: lightblue;
+}
+
+/* 
+Anything in your HTML code can be changed in CSS
+*/
+h1{
+	color: green;
+}
+
+h3{
+	color: purple;
+}
+
+h4{
+	color: yellow;
+}
+
+ol, ul{
+	background-color: white;
+}
+
+p{
+	font-size: 24; /* This changes size of paragraph words*/
+}
+
+.list{
+	width: 200px;
+	height: 200px;
+	background-color: #F6BD60;
+	display: inline;
+
+}
+.footer{
+	background: #A4DEF9;
+	width: 100%;
+	/*height: screen.width;*/
+	text-align: center;
+	position: fixed; /*it doesn't move even as you scroll through the screen
+					   helpful for sidebars that you don't want to move as ppl scroll through ur site*/
+	bottom: 0;
+	opacity: 0.7; /*can add/change opacity so that you can see text/ other stuff in the background*/
+}

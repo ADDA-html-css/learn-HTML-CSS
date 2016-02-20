@@ -1,0 +1,15 @@
+.top div{
+	border: 3px solid #73AD21;
+    padding: 10px;
+    background-color:#A7D3A6;
+    position:relative;
+}
+.logo{
+	float:left;
+}
+
+.tab{
+	display:inline-block;
+	margin-right: 10px;
+	float:right; /*With float right, tab names appear in reverse order, so had to change order so that names came out Home, About, Time instead of vice versa */
+}
