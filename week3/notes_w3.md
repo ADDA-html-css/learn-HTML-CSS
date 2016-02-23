@@ -102,16 +102,108 @@ When and Where
 ### Example 2
 - Make starter code, drop in a logo. Apply a background image, repeat.
 
-## Mini-Lesson 3, Grids
+```css
+body{
+	background-image: url('./images/textured_paper.png')
+}
+
+#logo{
+	display: block;
+	/*background-color: white;*/
+	width: 500px;
+	height: 500px;
+	margin: 0 auto;
+
+	background-size: 100px;
+	
+	background-position: center;
+	
+	background-repeat: no-repeat;
+	
+	/*background-repeat: repeat-x;
+	background-repeat: repeat-y;*/
+	
+	background-image: url('http://pre07.deviantart.net/08b2/th/pre/f/2012/050/0/b/planet_express_logo_by_chupacabrathing-d4qbo3v.png');
+}
+```
+
+example
+```css
+body{
+	margin: 0;
+	font-family: "Helvetica Neue"
+}
+section{
+	padding: 100px;
+	background-color: cornFlowerBlue;
+}
+.bg-image{
+	display: block;
+	height:600px;
+	background-image: url('https://wallpaperscraft.com/image/futurama_doctor_zoidberg_69273_1920x1080.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: 50% 50%;
+}
+```
+### Exercise, don't touch html!
+- Target the body tag
+	1. Set background image to bart.png in the images folder
+	2. Turn of the repeat
+	3. position the background in the top right corner
+	4. set the margin to 0
+	5. set the background-attachment so the image doesn't move
+- Target the logo id
+	1. set the display to block
+	2. Size the box to 500px;
+	3. use the margins to center in the middle of the page.
+	4. Set the background to krusty.gif
+	5. Position the image in the background
+	6. turn off the repeat.
+- Target the hello class
+	1. set width to 100%;
+	2. set the height to 200px;
+	3. repeat along the x-axis but not the y
+	4. set a background color of orange
+
+Solution
+```css 
+body{
+	background-image: url('./images/bart.png');
+	background-position: right top;
+	background-repeat: no-repeat;
+	margin: 0;
+	background-attachment: fixed;
+}
+
+#logo{
+	display: block;
+	margin: 0 auto;
+	width: 500px;
+	height: 500px;
+	background-image: url('./images/krusty.gif');
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.hello{
+	width: 100%;
+	height: 500px;
+	background-image: url('./images/hello.gif');
+	background-size: 200px;
+	margin-top: 100px
+}
+```
+## Advanced Positioning
+
+### Floats
+http://alistapart.com/article/css-floats-101
+
+### flexbox
+
+### Grids
 https://css-tricks.com/snippets/css/complete-guide-grid/
 https://css-tricks.com/dont-overthink-it-grids/
 
-## Mini-Lesson 4, flexbox
-
-## Floats
-http://alistapart.com/article/css-floats-101
-
-
 ## Homework
 - Rebuild Tattly
-- Simple Responsive layouts, see your pinterest board.
