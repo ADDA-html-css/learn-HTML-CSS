@@ -194,10 +194,83 @@ body{
 	margin-top: 100px
 }
 ```
-## Advanced Positioning
+## Mini-Lesson 3, Advanced Positioning
 
 ### Floats
 http://alistapart.com/article/css-floats-101
+- Float will move an element to the right or left
+- Used for making multiply column layouts
+- Will take the element out of the normal flow.
+
+Floating Div
+```
+
+```
+
+```css
+.container{
+	width: 800px;
+	background-color: #B2675E;
+	margin:0 auto;
+}
+
+aside{
+	background-color: #F55536;
+	float: right;
+	width: 500px;
+	height: 500px;
+
+}
+
+.clearfix:after { 
+   content: "."; 
+   visibility: hidden; 
+   display: block; 
+   height: 0; 
+   clear: both;
+}
+```
+
+Simple Float Example
+```css
+
+```
+
+Two Column Layout
+```html
+<!-- inside body -->
+<div class="wrapper">
+	<header class="b-bl m-t-1"><h1>Two Column Layout</h1></header>
+	<div class="main b-bl m-t-1">main</div>
+	<div class="sidebar b-bl m-t-1"></div>
+	<footer class="b-bl m-t-1">Foot</footer>
+</div>
+```
+```css
+.wrapper{
+	width: 900px;
+}
+
+.b-bl{
+	border: 1px solid black;
+}
+.main{
+	float: left;
+	width: 66%;
+	height: 500px;
+}
+
+.sidebar{
+	float: right;
+	width: 33%;
+	height: 300px;
+}
+
+footer{
+	clear:both;
+}
+
+```
 
 ### flexbox
 
