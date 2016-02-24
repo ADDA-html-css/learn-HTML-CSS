@@ -1,5 +1,30 @@
 # Week 3
+## Do Now
+-Use positioning to put a button in the bottom right corner of a square that is 200 pixels in size.
 
+### solution
+```html
+	<!-- inside body! -->
+  <div class="box">
+    <h2>Done?</h2>
+    <button>Lets Code!</button>
+  </div>
+
+```
+```css
+.box{
+  position: relative;
+  width: 200px;
+  height: 200px;
+  background-color: #BBAADD;
+}
+
+button{
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+```
 ## Objectives
 - I can employ semantic HTML to optimize my markup.
 - I can use the CSS background properties in all of their glory.
@@ -197,15 +222,12 @@ body{
 ## Mini-Lesson 3, Advanced Positioning
 
 ### Floats
-http://alistapart.com/article/css-floats-101
 - Float will move an element to the right or left
 - Used for making multiply column layouts
 - Will take the element out of the normal flow.
 
 Floating Div
-```
-
-```
+- HTML Starter file in advDispaly folder
 
 ```css
 .container{
@@ -231,10 +253,6 @@ aside{
 }
 ```
 
-Simple Float Example
-```css
-
-```
 
 Two Column Layout
 ```html
@@ -246,6 +264,7 @@ Two Column Layout
 	<footer class="b-bl m-t-1">Foot</footer>
 </div>
 ```
+
 ```css
 .wrapper{
 	width: 900px;
@@ -273,10 +292,45 @@ footer{
 ```
 
 ### flexbox
+```html
 
-### Grids
-https://css-tricks.com/snippets/css/complete-guide-grid/
-https://css-tricks.com/dont-overthink-it-grids/
+```
+
+```css
+h1{
+	text-align: center;
+	font-family: helvetica, sans-serif;
+}
+
+.wrapper{
+	display: flex;
+	flex-wrap: wrap;
+	width: 900px;
+	margin: 0 auto;
+	background: #BADA55;
+}
+
+.box{
+	
+	border: 1px solid orange;
+	width: 428px;
+	height: 200px;
+	margin: 10px;
+
+}
+
+.elderberry{
+	flex-grow: 2;
+}
+```
+
+Play, 5 minutes or so
+- Go to this website, http://codepen.io/enxaneta/full/adLPwv/
+- Mess around with the flexbox features.
+
+### Position Exercise
+- Build a 2 row, 4 column grid of divs using floats for positioning.
+- Build the same grid, using flexbox for positioning.
 
 ## Homework
 - Rebuild Tattly
