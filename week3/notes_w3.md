@@ -32,7 +32,7 @@ button{
 - I can use the float property to control object positioning.
 
 ## Housekeeping
-- Do a git pull, you should have a folder now called week3.
+- Do a git sync, you should have a folder now called week3.
 
 ## Stand Up
 - Successes?
