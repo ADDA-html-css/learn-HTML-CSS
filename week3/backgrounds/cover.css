@@ -1,5 +1,6 @@
 body{
 	margin: 0;
+<<<<<<< Updated upstream
 	font-family: "Helvetica";
 }
 .logo{
@@ -9,6 +10,11 @@ body{
 	height: 100px;
 	background-size: 100%; 
 }
+=======
+	font-family: "Helvetic";
+}
+
+>>>>>>> Stashed changes
 section{
 	padding: 100px;
 	background-color: cornFlowerBlue;
@@ -17,9 +23,16 @@ section{
 .bg-image{
 	display: block;
 	height: 600px;
+<<<<<<< Updated upstream
 	background-image: url('https://wallpaperscraft.com/image/futurama_doctor_zoidberg_69273_1920x1080.jpg');
 
 	background-size: cover;
 	background-position: 50% 50%;
+=======
+	background-image: url('https://wallpaperscraft.com/image/futurama_doctor_zoidberg_69273_602x339.jpg');
+
+	background-size: cover;
+	background-position: center;
+>>>>>>> Stashed changes
 	background-attachment: fixed;
 }
