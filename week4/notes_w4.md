@@ -144,6 +144,60 @@ insert example
 - last child 
 - nth child
 
+```css
+.txt, .btn{
+	width:300px;
+	height: 30px;
+	border: solid 2px #eee;
+	font-size: 20px;
+	font-family: helvetica, sans-serif;
+	border-radius: 0;
+}
+
+.txt:focus, .btn:focus{
+	border: solid 2px #91F5AD;
+	outline: none;
+}
+
+.btn{
+	background-color: white;
+	border: solid 2px #91F5AD;
+	color:#91F5AD;
+}
+
+.btn:hover{
+	background-color: #91F5AD;
+	color: #fff;
+}
+
+ul{
+	font-size: 20px;
+	font-family: helvetica, sans-serif;
+}
+
+li:first-child{
+	color: #745296;
+}
+
+li:last-child{
+	color: #D1626F;
+}
+
+li:nth-child(2){
+	color: #C65CA3;
+}
+
+a, a:visited{
+	color: #C65CA3;
+	text-decoration: none;
+}
+
+a:hover{
+	color: #D1626F;
+	text-decoration: underline;
+}
+```
+
 ### Pseudo Exercise
 - add style to grid that you made in the previous exercise.
 - on hover, change the background color of the element that is under the mouse
@@ -151,7 +205,28 @@ insert example
 - use the last-child to change th background color of the last box
 - use nthchild to change the background color of another box.
 
-## Mini-Lesson 3, Wireframes and Prototypes
+## Mini-Lesson 3, using fonts
+- show google fonts demo
+```css
+@import url(https://fonts.googleapis.com/css?family=Open+Sans|Poiret+One);
+body{
+	font-family: 'Open Sans', sans-serif;
+	background-image: url('concrete_wall_2.png');
+}
+
+#page-wrapper{
+	width: 940px;
+	margin: 0 auto;
+	background: #fff;
+	padding: 20px;
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Poiret One', cursive;
+}
+```
+
+## Mini-Lesson 4, Wireframes and Prototypes
 **Purpose of wireframes** 
 - layout of a page
 - No style just visual structure
