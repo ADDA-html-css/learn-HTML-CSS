@@ -5,7 +5,13 @@ We are moving to building a personal website and interactive resume. Each of our
 ## Objectives
 - I can develop advanced layouts using simple grids and flexbox.
 - I can use the float property to control object positioning.
+- I can build simple interactions with pseudo classes.
+- I can load fonts into my markup and use them in CSS rules.
+- I can create an amazing personal website working from wireframe to final code. 
 
+## Resources
+- [Google Drawing Wireframe Templates](https://drive.google.com/templates?q=%23wfkit&ddrp=1#)
+- 
 ## Housekeeping
 - Do a git sync, you should have a folder now called week3.
 
@@ -207,8 +213,12 @@ a:hover{
 
 ## Mini-Lesson 3, using fonts
 - show google fonts demo
+```html
+<link href='https://fonts.googleapis.com/css?family=Poiret+One|Open+Sans' rel='stylesheet' type='text/css'>
+```
+
 ```css
-@import url(https://fonts.googleapis.com/css?family=Open+Sans|Poiret+One);
+
 body{
 	font-family: 'Open Sans', sans-serif;
 	background-image: url('concrete_wall_2.png');
