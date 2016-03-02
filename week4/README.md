@@ -15,10 +15,12 @@
 - [All about Flexbox](https://css-tricks.com/all-about-floats/)
 - [Flexbox Playground](http://codepen.io/enxaneta/full/adLPwv/)
 - [Floats 101: A list Apart](http://alistapart.com/article/css-floats-101)
+- [Google Drawing Wireframe Templates](https://drive.google.com/templates?q=%23wfkit&ddrp=1#)
+- [Google Fonts](https://www.google.com/fonts)
 
 ## Homework
 - By the end of class today, you will have all the tools that you need to create an amazing personal website. 
 - Go for it! Use everything that you have learned to make it great!
-- Come next week finished* and ready to host online.
-- Make your a new repository in your github account.
+- Come next week finished and ready to host online.
+- Make your project in a new repository in your github account.
 

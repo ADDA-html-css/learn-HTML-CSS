@@ -22,7 +22,19 @@
 [Class Presentation](https://docs.google.com/presentation/d/15qZMwHLy1dfYVitkMSCTMsukW7i6WowRBG5wQ6vbj-E/edit?usp=sharing)
 
 **Week 3**
+- Semantic HTML
+- Backgrounds
+
+[Class Presentation](https://docs.google.com/presentation/d/1xwsygpjQQnw5ogkAuBvx606Q_BR1pvhojgYzwth7J1o/edit?usp=sharing)
+
+[Homework](https://classroom.github.com/assignment-invitations/76c85c2d667f86bfcbe5d6e333a231df)
+
+**Week 4**
+- Fonts
 - Floats
-- Grid layouts
-- Laying out a page
 - Flexbox 
+- Laying out a page
+
+[Class Presentation](https://docs.google.com/presentation/d/1tR2OhVUOsHWegzisEGct9GbngXTMuPVfoKcT6M7f_ls/edit?usp=sharing)
+
+[Homework](https://github.com/awdriggs-html-css/HTML-CSS-spring16/blob/master/week4/README.md)
