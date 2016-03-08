@@ -1,0 +1,16 @@
+.wrapper{
+	width: 900px;
+	height: 400px;
+	margin: 0 auto;
+	padding-top: 50px;
+	padding-left: 200px;
+	background-color: orange;
+	z-index: 1;
+}
+
+img{
+	position: relative;
+	height: 300px;
+	margin-left: -100px;
+}
+

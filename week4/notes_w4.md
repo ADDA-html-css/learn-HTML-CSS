@@ -7,7 +7,7 @@ We are moving to building a personal website and interactive resume. Each of our
 - I can use the float property to control object positioning.
 - I can build simple interactions with pseudo classes.
 - I can load fonts into my markup and use them in CSS rules.
-- I can create an amazing personal website working from wireframe to final code. 
+
 
 ## Resources
 - [Google Drawing Wireframe Templates](https://drive.google.com/templates?q=%23wfkit&ddrp=1#)
@@ -235,37 +235,6 @@ h1, h2, h3, h4, h5, h6{
 	font-family: 'Poiret One', cursive;
 }
 ```
-
-## Mini-Lesson 4, Wireframes and Prototypes
-**Purpose of wireframes** 
-- layout of a page
-- No style just visual structure
-- The whole point is to have a quick way of playing with a sites design
-- size the page to the device you are playing for
-
-**Wireframe Options**
-- Can be drawn by hand (this is usually where I start)
-- Using google drawings and sheets, with stencils
-- Using sketch, adobe illustrator or photoshop (obviously you will need a foundation in these programs)
-
-**From wireframe to prototype**
-- a prototype is a quick mockup of a website.
-- allows us to test the site without writing any code.
-- Usually a prototype has a buttons as links to a few different pages
-- allows you as a designer to test some of the navigation and layout elements. 
-- Prototypes can be tested with users, 
-	+ ask a user to perform a specific task, 
-	+ watch them as they interact with your prototype.
-
-**Prototype Options**
-- Protoyping on Paper, website and app
-- Using Google Drawings and Sheets
-- Using InVision, you will need to upload images or design files (psd, ai, pdf, sketch)
-
-### Your Task
-- Create a wireframe for the desktop version of your personal site.
-- Create a simple prototype from your wireframe, 1-3 pages, some buttons, some links
-- Test your prototype different people. Ask them to do a specific task, i.e. "where would you go to find my resume", pay attention to there movements.
 
 ## Homework
 - Build your personal website from your prototype.
