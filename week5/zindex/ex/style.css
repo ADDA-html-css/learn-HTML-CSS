@@ -5,12 +5,10 @@
 	padding-top: 50px;
 	padding-left: 200px;
 	background-color: orange;
-	z-index: 1;
 }
 
 img{
-	position: relative;
+	position: relative;	/*zindex only works with postioned elements*/
 	height: 300px;
 	margin-left: -100px;
 }
-
