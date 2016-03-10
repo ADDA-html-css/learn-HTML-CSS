@@ -1,0 +1,134 @@
+body {background-color: #fafafa;
+	font-family: helvetica;
+}
+
+
+#phones {display: inline-block;
+	width: 454px;
+	height: 618px; 
+	position: relative;
+	left: 200px;
+	margin: 0px; 
+	background-image: url('./images/mobile.png');
+	background-repeat: no-repeat;
+
+}
+
+#section {background-color: white;
+	background-image: url('./images/instagram.png');
+	background-size: 80%;
+	background-repeat: no-repeat;
+	background-position: 50% 10%;
+	position: absolute;
+	top: 100px;
+	right: 300px; 
+	display: inline-block;
+	width: 200px;
+    height: 300px;
+    padding: 50px;
+    border: 1px solid #edeeee; 
+    border-radius: 1px;
+}
+
+input {padding: 10px;
+	font-size: 14px; 
+	width: 150px; 
+	height: 30px; 
+	position: relative;
+	top: 70px;
+	left: 10px;
+
+ 
+}
+
+button {background-color: #4c94d7; 
+	font-family: helvetica;
+	font-size: 14px;
+	width: 150px; 
+	height: 30px; 
+	border: none; 
+	padding: 10px; 
+	color: white; 
+	position: absolute;
+	right: 80px;
+	bottom: 120px;
+}
+
+#facebook {background-image: url('./images/facebook.png');
+	background-size: 10%;
+	background-repeat: no-repeat;
+	background-position: top left;
+	position: absolute;
+	right: 150px;
+	bottom: 100px;
+	width: 400px;
+	height: 100px;
+	padding: none;
+	font-family: helvetica;
+	font-size: 14px;
+	text-align: bottom right;
+	text-indent: 50px;
+	color: blue;
+
+}
+
+#buttonone {background-image: url('./images/play_store.png');
+	background-size: 50%;
+	background-repeat: no-repeat;
+	background-position: center left;
+	position: absolute;
+	right: 300px;
+	width: 300px;
+	height: 200px;
+	padding: none;
+	font-family: helvetica;
+	font-size: 18px;
+
+
+}
+
+#buttontwo {background-image: url('./images/app_store.png');
+	background-size: 80%;
+	background-repeat: no-repeat;
+	background-position: center right;
+	position: absolute;
+	right: 250px;
+	width: 200px;
+	height: 200px;
+	padding: none;
+}
+
+
+ul {
+    list-style-type: none;
+    margin-top: 10;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    padding: 0;
+    background-color: #fafafa;
+}
+
+li {
+    display: inline-block;
+    color: darkblue;
+    text-align: center; 
+    text-decoration: none;
+    padding: 20px 10px;
+}
+
+footer {display: inline-block; 
+	position: fixed;
+	bottom: 0;
+	left: 0px; 
+	right: 0px;
+	width: auto; 
+	text-align: center;
+	font-size: 12px;
+   
+
+
+}
+
+
+
