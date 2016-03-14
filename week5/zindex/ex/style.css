@@ -11,4 +11,18 @@ img{
 	position: relative;	/*zindex only works with postioned elements*/
 	height: 300px;
 	margin-left: -100px;
+
+	transition: height 1s;
+}
+
+
+/*character I don't like*/
+.nelson, .burns, .maggie{
+	z-index: -100;
+}
+
+img:hover{
+	z-index: 100;
+
+	height: 600px;
 }

@@ -2,6 +2,8 @@
 	background-color: #FFA500;
 	top: 50px;
 	left: 50px;
+
+	z-index: -100;
 }
 
 .purple{
@@ -20,5 +22,5 @@
 	position: absolute;
 	border: 1px solid black;
 
-	
+	box-shadow: 10px 10px 10px rgba(0,0,0, 0.1);
 }
