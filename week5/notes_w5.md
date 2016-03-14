@@ -1,4 +1,6 @@
 ## Objectives
+- I can create a grid using flex-box
+- I can apply zindex, transition, and box shadows to my css
 - I can use github pages to host my personal website.
 - I can create an amazing personal website working from wireframe to final code. 
 
@@ -37,16 +39,21 @@
 }
 ```
 
-
 ## Mini-Lesson 1, z-index
 - Think cartesian coordinates, what would z represent?
-- This is the stacking ordr of elements on the page.
+- This is the stacking order of elements on the page.
 - load example, what do you notice?
 - positive numbers will make the element move up
 - negative numbers will make it move down
 - nothing can go behind the body!
 
-ex simpsons
+### You Do
+- Open zindez/ex folder
+- No need to edit the html!
+- use zindex to move your least favorite simpsons character behind the orange div
+- use zindex to put your favorite characters on top of all the others
+- can you make the image that the mouse is over come to the front?
+- BONUS, use hover to change the size when you hover over an image, can you make this happen smoothly?
 
 ## Mini-lesson 2, box shadow
 - This is so hot right now
@@ -62,8 +69,15 @@ box-shadow:10px 10px 10px rgba(0,0,0,0.1);
 ```
 -better, describe rbga colors
 
+## Mini-Lesson 3, github pages
 
-## Mini-Lesson 3, Wireframes and Prototypes
+- Create a new repo, named username.github.io
+- initialize with a readme
+- You html page must be called index.html
+- Add your index.html and css files to the repo
+- Go to `http://username.github.io/` should work
+
+## Mini-Lesson 4, Wireframes and Prototypes
 **Purpose of wireframes** 
 - layout of a page
 - No style just visual structure
@@ -92,4 +106,9 @@ box-shadow:10px 10px 10px rgba(0,0,0,0.1);
 ### Your Task
 - Create a wireframe for the desktop version of your personal site.
 - Create a simple prototype from your wireframe, 1-3 pages, some buttons, some links
-- Test your prototype different people. Ask them to do a specific task, i.e. "where would you go to find my resume", pay attention to there movements.
+- Test your prototype different people. Ask them to do a specific task, i.e. "where would you go to find my resume", pay attention to there movements
+
+## HW
+- Make the best website that you can.
+- Use github pages to host
+- Have fun with this!
