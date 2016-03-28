@@ -1,5 +1,6 @@
 ## Objectives
 - I can use Bootstrap to rapidly develop responsive pages with grid systems.
+- I can use Bootstrap to create simple navigation 
 
 ## Do Now
 
