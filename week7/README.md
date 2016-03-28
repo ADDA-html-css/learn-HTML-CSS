@@ -8,7 +8,7 @@
 [Arguments For and Against Bootstrap](http://www.hyperarts.com/blog/twitter-bootstrap-sucks-and-its-awesome/)
 
 ## Slides
-
+- [Week 7 Slides](https://docs.google.com/presentation/d/1DH5zcJETE6SAHTFZy3i2ijUByUlSLcNvB-JMuX6tWvg/edit?usp=sharing)
 
 ## Homework
 - [Accept Invite](https://classroom.github.com/assignment-invitations/50017d425b192b1dc649c87bbf036cfc)

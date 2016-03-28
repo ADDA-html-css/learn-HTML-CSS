@@ -49,6 +49,6 @@
 **Week 7**
 - Bootstrap Grids and Navs
 
-[Class Presentation]()
+[Class Presentation](https://docs.google.com/presentation/d/1DH5zcJETE6SAHTFZy3i2ijUByUlSLcNvB-JMuX6tWvg/edit?usp=sharing)
 
 [Homework](https://classroom.github.com/assignment-invitations/50017d425b192b1dc649c87bbf036cfc)
