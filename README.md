@@ -38,3 +38,17 @@
 [Class Presentation](https://docs.google.com/presentation/d/1tR2OhVUOsHWegzisEGct9GbngXTMuPVfoKcT6M7f_ls/edit?usp=sharing)
 
 [Homework](https://github.com/awdriggs-html-css/HTML-CSS-spring16/blob/master/week4/README.md)
+
+**Week 5**
+- 
+
+**Week 6**
+- Responsive Web Design, using media queries
+[Homework](https://classroom.github.com/assignment-invitations/e06999b6ddebd06de27d1b57b004b19b)
+
+**Week 7**
+- Bootstrap Grids and Navs
+
+[Class Presentation]()
+
+[Homework](https://classroom.github.com/assignment-invitations/50017d425b192b1dc649c87bbf036cfc)
