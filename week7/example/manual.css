@@ -9,3 +9,15 @@ body{
 	height: 100px;
 }
 
+.nav-pills li.active a, .nav-pills li.active a:focus{
+	background-color: #BADA55;
+}
+
+.nav-pills>li.active>a:hover{
+	background-color: #5B9279;
+}
+
+a{
+	color: #7b4b94;
+}
+
