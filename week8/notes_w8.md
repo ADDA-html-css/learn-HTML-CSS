@@ -101,6 +101,33 @@
 	</button>
 ```
 
+### Your Turn
+- Debug the code below
+```html
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+  
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div
+
+    <div class="collapse navbar-collapse" id="collapse-menu">
+      <ul class="nav navbar-nav">
+        <li><a href="#">Top Bun</a></li>
+        <li><a href="#">Special Sauce</a></li>
+        <li><a href="#">Lettuce</a></li>
+        <li><a href="#">Cheese</a></li>
+        <li><a href="#">All Beef Patty</a></li>
+        <li><a href="#">Bottom Bun</a></li>
+      </ul>
+    </section>
+</nav>
+```
+
 ## Dropdown Menus
 ```html
 <ul class="nav navbar-nav">
@@ -116,6 +143,7 @@
 </ul>
 ```
 ### You Do
+- Create a copy of cheese.html.
 - Create a new cheese menu with 2 separate dropdowns
 - Include one dropdown for soft cheese
 	+ Add chevre, brie, and camembert to this section
@@ -168,6 +196,53 @@
 ### You Do
 - Add another panel for potions
 
-## Slider
+## Carousel
+- Bootstrap comes with a built in image carosel
+
+```html
+	<div class="container">
+		<div id="slider" class="carousel slide" data-ride="carousel" data-interval="3000">
+	  <!-- Indicators -->
+	  <!-- 
+	  <ol class="carousel-indicators">
+	    <li data-target="#slider" data-slide-to="0" class="active"></li>
+	    <li data-target="#slider" data-slide-to="1"></li>
+	    <li data-target="#slider" data-slide-to="2"></li>
+	  </ol>
+ -->
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    
+    <div class="item active">
+      <img class="img-responsive" src="http://www.thestudyabroadportal.com/studyabroadblog/wp-content/uploads/2014/08/Hogwarts-castle-harry-potter-166431.jpg">
+      <div class="carousel-caption">
+        <h1>Welcome to Hogwarts!</h1>
+      </div>
+    </div>
+
+    <div class="item">
+      <img class="img-responsive" src="http://vignette2.wikia.nocookie.net/harrypotter/images/4/47/Hogwarts-dh2.jpg/revision/latest?cb=20110421152732">
+      <div class="carousel-caption">
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Controls -->
+<!--   <a class="left carousel-control" href="#slider" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+  </a>
+  <a class="right carousel-control" href="#slider" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+  </a>
+ -->
+</div>
+```
+
+### You Do
+- Add another image to the slider.
+- Add caption and title to the images.
+- Bonus! Look at the bootstrap docs. You can add fancy control buttons! 
 
 

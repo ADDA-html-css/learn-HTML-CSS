@@ -52,3 +52,10 @@
 [Class Presentation](https://docs.google.com/presentation/d/1DH5zcJETE6SAHTFZy3i2ijUByUlSLcNvB-JMuX6tWvg/edit?usp=sharing)
 
 [Homework](https://classroom.github.com/assignment-invitations/50017d425b192b1dc649c87bbf036cfc)
+
+**Week 8**
+- Bootstrap and Javascript
+
+[Class Presentation](https://docs.google.com/presentation/d/1aFADuuhisLPruSSbSXng5ZXXM-40GcQZqxaRnZVtUAE/edit?usp=sharing)
+
+[Final Project](https://docs.google.com/document/d/1MgZWZN_cGM-yuDLLBkO9FDQZDG0kZpxv13kk12RDkyI/edit?usp=sharing)
