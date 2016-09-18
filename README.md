@@ -38,7 +38,6 @@ comment
 - Fonts
 - Floats
 - Flexbox 
-- Laying out a page
 
 <!--
 [Class Presentation](https://docs.google.com/presentation/d/1tR2OhVUOsHWegzisEGct9GbngXTMuPVfoKcT6M7f_ls/edit?usp=sharing)
@@ -47,8 +46,10 @@ comment
 -->
 
 **Week 5**
-- 
-
+- Layering with z-index
+- wireframing and prototyping
+- hosting with github pages
+  
 **Week 6**
 - Responsive Web Design, using media queries
 
@@ -72,3 +73,14 @@ comment
 
 [Final Project](https://docs.google.com/document/d/1MgZWZN_cGM-yuDLLBkO9FDQZDG0kZpxv13kk12RDkyI/edit?usp=sharing)
 -->
+
+### Submitting homework
+You will be submitting your homework through the github desktop app!
+1. Go to the github Desktop app
+2. Click on the "F_2016_HTMLCSS_HW" repo in the left sidebar
+3. Click on the tab for uncommitted changes
+4. Type a note in the summary box
+5. Click "Commit to master"
+6. Click the button in the top right corner lablled "Pull Request"
+7. Put your name in the title
+8. Click "Send Request"

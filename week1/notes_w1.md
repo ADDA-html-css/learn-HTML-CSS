@@ -7,7 +7,7 @@
 
 ## Do Now
 - Open Slack (Browser or App!)
-- In our class channel "html_css_driggers" slack your response to this question. What do you hope to accomplish in this class? 
+- In our class channel "f16-w-html" slack your response to this question. What do you hope to accomplish in this class? 
 
 ## Housekeeping and Introductions
 ### Syllabus
@@ -46,24 +46,22 @@ Why CSS? What does CSS do for us?
 
 ### Mini-lesson 1 - Basic HTML
 - Show opening and closing tags.
-- html sandwhich analogy.
+- html sandwich analogy.
 - Focus that all content needs to be inside tags.
-- Do in JSbin to start
-
-####Excercise 1 
-*Build a basic site, announcing yourself to the world*
-- Add a heading to the page, say something like "hello world" 
-- Create a paragraph saying who you are.
-- Make an ordered list of something, use at least 3 items. ex. favorite tv show.
-- Make an ordered list of somethign, use at least 3 items. ex. places i've travelled.
-- **Bonus** Make some text a link to something else
-- **Bonus** Add an image somewhere on your site.
 
 ### Mini-lesson 2 - Setup a page with sublime.
 - show how to write html head tag, add a title
 - show how to make the body.
 - show how to open the page in the browser from sublime.
 
+####Exercise 1 
+*Build a basic site, announcing yourself to the world*
+- Add a heading to the page, say something like "hello world" 
+- Create a paragraph saying who you are.
+- Make an ordered list of something, use at least 3 items. ex. favorite tv show.
+- Make an ordered list of something, use at least 3 items. ex. places I've travelled.
+
+##@ Mini-Lesson 2
 - show how to do a link
 - show how to do an image
 
@@ -74,10 +72,11 @@ Why CSS? What does CSS do for us?
 <a href="url">link text</a>
 ```
 
-#### Exercise 2
-- Lets copy and paste our body from jsbin into sublime. lets save.
+####Exercise 2
+- Make some text a link to something else
+- Add an image somewhere on your site.
 
-### Mini-Lesson 3
+### Mini-Lesson 3 
 - linking to other files
 - linking to css file
 ```html
@@ -96,9 +95,9 @@ Why CSS? What does CSS do for us?
 - change the size of p font
 
 ### Mini-Lesson 4
-- Using the inspect from chrome or firefox
+- Using the inspect from chrome 
 - right click
-- inspect or view source
+- inspect 
 
 ## HW
 - Read article, http://skillcrush.com/2012/04/17/frontend-vs-backend-3/
@@ -107,7 +106,6 @@ Why CSS? What does CSS do for us?
 	2. goals.html, a list of your learning goals for this course.
 	3. contact.html, a page with directions how to get in contact with you. 
 	4. **Bonus**, add a link that when clicked opens an email program already populated with a custom subject.
-- wireframe for personal site, bring to class next week
 - Open the inspector on any webpage. Write a reflection on the following questions. What do you see that is familiar? What do you see that confuses you? Did you pick up anything new?
 
 ### Submitting homework
