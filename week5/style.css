@@ -1,9 +1,0 @@
-h1{
-	font-family: helvetica, sans-serif;
-	size: 20px;
-	color: #eee;
-}
-
-h1:hover{
-	color: blue;
-}
