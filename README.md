@@ -3,7 +3,7 @@
 comment
 -->
 ## Calendar
-**Week 1**
+**[Week 1](https://github.com/ADDA-html-css/learn-HTML-CSS/tree/master/week1)**
 - Getting to know the html/css stack
 - Basic HTML
 - A glimpse of CSS
