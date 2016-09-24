@@ -9,4 +9,4 @@
 [Class Presentation](https://docs.google.com/presentation/d/1kMzZlsrgdeMjtAOK6AVs8Q8V0rqQg_akyTaFgHoNiEo/edit?usp=sharing)
 
 ## Home Work
-[Homework Assignment](https://github.com/ADDA-html-css/learn-HTML-CSS/blob/master/week1/hw.md)
+[Homework Assignment](https://github.com/ADDA-js/F_2016_JS_HW)
