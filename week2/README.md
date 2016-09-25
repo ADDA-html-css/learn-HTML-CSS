@@ -1,5 +1,4 @@
-<img style="width: 100%" src='https://lh3.googleusercontent.com/8ukyuLBSR_kK-4dyrEZH-ol2x_pLFtsGrKZaRAiQwjUUIgft0xskrQJ8ZZRN6IBXjTulPsQbm5J26kIOsJC8DPi3_P0=s300'>
-
+# Week 2
 
 ## Resources
 - [W3 Schools: HTML named colors](http://www.w3schools.com/colors/colors_names.asp)

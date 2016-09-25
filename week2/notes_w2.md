@@ -8,10 +8,13 @@
 
 ## Housekeeping 
 - Using github desktop
-- Download app
-- go to class [repo](https://github.com/awdriggs-html-css/spring16)
+- go to homework [repo](https://github.com/ADDA-html-css/F_2016_HTMLCSS_HW)
 - create a fork
-- clone that fork in desktop, make it go to the location you want to work in on your computer
+- clone that fork in desktop
+- Go to that location, make a folder with your name
+- Copy the folder with starter into your folder, 
+- do all your work in this location
+- When you are finished, sync, then do a pull request
 
 ## Do Now
 Find the error!
@@ -70,22 +73,23 @@ Find the error!
 	}
 ```
 
-- There should be only one of any given ID
-- There can be multiple classes
+- An ID should be unique to a single html element
+- Many elements can share a class
 - Analogy: You have an ID, there is no one else should share your ID. You are in this class, but many people can share this class.
 
 ### Excercise 1
 - Make index.html
+- Make three paragraphs, use a text generator
 - Make style.css
-- Make a green paragraph
-- Make a paragraph with a silver background
+- Make the first paragraph green
+- Make the second paragraph black text (normal) with a silver background
 - Make the third paragraph green text and a silver background
 
 Introduce DRY!
 
 ## Mini-Lesson 2, Box Model
 Show a basic slide of the box model.
-http://www.w3schools.com/css/css_boxmodel.asp
+[link](http://www.w3schools.com/css/css_boxmodel.asp)
 
 ### Exercise 2
 ** investigate a simple box model and how it effects the layout**
@@ -183,6 +187,49 @@ Possible Responses
 - Fixed, doesn't move, fixed inside the window
 
 ```
+#container{
+	width: 100%;
+	max-width: 800px;
+	display: block;
+	margin: 0 auto;
+	
+}
+
+.demo{
+	background-color: #BADA55;
+	width: 200px;
+	height: 200px;
+	opacity: 0.5;
+	right: 500px;
+
+	border-radius: 10;
+}
+
+.demo button{
+	position: absolute;
+	top: 10px;
+	right:10px;
+
+	display: block;
+	width:100px;
+}
+
+
+.footer{
+	background: #BADA55;
+	width: 100%;
+	height: 120px;
+	text-align: center;
+	bottom: 0;
+	opacity: 0.5;
+}
+
+body{
+	margin-bottom: 120px;
+}
+```
+change demo button to be absolute
+```
 .demo button{
 	position: absolute;
 	bottom: 0;
@@ -260,7 +307,7 @@ ipod challenge
 - Create a inline menu from list items.
 - Add a footer that sticks to the bottom of you page
 
-### Practice CSS Positioning
+### Practice CSS Positiokning
 ![Example Layout](http://designshack.net/wp-content/uploads/layoutideas-1-1.jpg)
 Build this layout from scratch.
 
