@@ -1,0 +1,12 @@
+.green{
+	color: green;
+}
+
+.silver{
+	/*display: block;*/
+	background-color: silver;
+}
+
+.silver h2{
+	color: white;
+}

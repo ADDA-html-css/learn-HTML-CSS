@@ -1,0 +1,67 @@
+.wrapper{
+	width:100%;
+	max-width: 1000px;
+	margin: 0 auto;
+	background-color: grey;
+	padding: 10px;
+
+}
+
+.top{
+	width: 100%;
+	height: 70px;
+	background-color: blue;
+	position: relative;
+}
+
+.top ul{
+	display: block;
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	padding: 0;
+	margin: 0;
+}
+.top a li{
+	color: white;
+	display: inline-block;
+	width: 100px;
+	height: 50px;
+	margin: 0 5px;
+	background-color: black;
+
+}
+
+#logo{
+	display: inline-block;
+	width: 200px;
+	height: 50px;
+	margin: 0 5px;
+	background-color: black;
+
+	position: absolute;
+	left:10px;
+	top:10px;
+}
+
+.middle{
+
+	background-color: black;
+	width:980px;
+	height: 500px;
+	margin:10 10px;
+}
+
+.bottom{
+	margin-top: 10px;
+	padding:0 5px;
+}
+
+.bottom div{
+	
+	display: inline-block;
+	width:482px;
+	height: 235px;
+	margin:0 5px;
+	background-color: black;
+}

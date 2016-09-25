@@ -8,22 +8,22 @@ comment
 - Basic HTML
 - A glimpse of CSS
 
-[Homework](https://github.com/awdriggs-html-css/spring16/blob/master/week1/hw.md)
+[Homework](https://github.com/ADDA-html-css/F_2016_HTMLCSS_HW/blob/master/week1/week1.md)
 
 [Class Presentation](https://docs.google.com/presentation/d/1kMzZlsrgdeMjtAOK6AVs8Q8V0rqQg_akyTaFgHoNiEo/edit?usp=sharing)
 
-**Week 2**
+**[Week 2]()**
 - Class v. ID
 - Understanding the box model
 - CSS display property
 - CSS colors
 - CSS positioning
 
-<!--
-[Homework](https://github.com/awdriggs-html-css/spring16/blob/master/week2/README.md)
+
+[Homework](https://github.com/ADDA-html-css/F_2016_HTMLCSS_HW/tree/master/week2)
 
 [Class Presentation](https://docs.google.com/presentation/d/15qZMwHLy1dfYVitkMSCTMsukW7i6WowRBG5wQ6vbj-E/edit?usp=sharing)
--->
+
 **Week 3**
 - Semantic HTML
 - Backgrounds

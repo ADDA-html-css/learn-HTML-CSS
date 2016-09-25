@@ -1,0 +1,36 @@
+.container{
+	background-color: #e1bbc9; 
+	display: block;
+	width: 1000px;
+	padding: 25px;
+	margin: 0 auto;
+	/*text-align: center;*/
+
+}
+
+h1{
+	font-size: 100px;
+}
+
+.box{
+	display: inline-block;
+	width: 440px;
+	height: 440px;
+}
+
+#boxa{
+	background-color: #454ade;
+	border: 12px solid #1b1f3b;
+	color: #1b1f3b;
+	margin: 12px;
+	padding: 0;
+}
+
+#boxb{
+	background-color: #c874d9;
+	border: 12px solid #b14aed;
+	color:#b14aed;
+	margin: 12px;
+	padding: 0;
+}
+

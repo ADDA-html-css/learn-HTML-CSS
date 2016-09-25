@@ -48,8 +48,6 @@ Why CSS? What does CSS do for us?
 - Show opening and closing tags.
 - html sandwich analogy.
 - Focus that all content needs to be inside tags.
-
-### Mini-lesson 2 - Setup a page with sublime.
 - show how to write html head tag, add a title
 - show how to make the body.
 - show how to open the page in the browser from sublime.
