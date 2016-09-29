@@ -1,0 +1,16 @@
+#titleDiv{
+	color: blue;
+}
+/*this is a comment*/
+
+.red {
+	color: red;
+}
+
+.red p{
+	background-color: pink;
+}
+
+.blue {
+	background-color: blue;
+}
