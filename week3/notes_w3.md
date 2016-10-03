@@ -248,7 +248,7 @@ body{
 	margin: 0;
 	font-family: "Helvetica Neue"
 }
-section{
+div{
 	padding: 100px;
 	background-color: cornFlowerBlue;
 }
@@ -261,21 +261,21 @@ section{
 	background-position: 50% 50%;
 }
 ```
-### Exercise, don't touch html!
-- Target the body tag
+#### Exercise, don't touch html!
+- [ ] Target the body tag
 	1. Set background image to bart.png in the images folder
 	2. Turn of the repeat
 	3. position the background in the top right corner
 	4. set the margin to 0
 	5. set the background-attachment so the image doesn't move
-- Target the logo id
+- [ ] Target the logo id
 	1. set the display to block
 	2. Size the box to 500px;
 	3. use the margins to center in the middle of the page.
 	4. Set the background to krusty.gif
 	5. Position the image in the background
 	6. turn off the repeat.
-- Target the hello class
+- [ ] Target the hello class
 	1. set width to 100%;
 	2. set the height to 200px;
 	3. repeat along the x-axis but not the y

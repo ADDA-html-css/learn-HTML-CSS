@@ -13,8 +13,8 @@
 ## Homework - From Screenshot to Page
 
 ### Practice CSS Positioning
-![Example Layout](http://designshack.net/wp-content/uploads/layoutideas-1-1.jpg)
-Build this layout from scratch.
+![Simple Layout](http://designshack.net/wp-content/uploads/layoutideas-1-1.jpg)
+Build this layout from scratch. Basic starter files are in the folder `simple_layout`
 
 Bonus! Add content. Make one of the images a circle.
 
@@ -22,9 +22,5 @@ Bonus! Add content. Make one of the images a circle.
 Watch this [video](https://css-tricks.com/video-screencasts/110-quick-overview-of-css-position-values/)
 
 ### Ready for a Challenge?
-- [Accept Invitaion](https://classroom.github.com/assignment-invitations/76c85c2d667f86bfcbe5d6e333a231df)
-- Click the Desktop Download Icon to add to your github desktop, or you can do download the files as a zip.
-- Work in this repo. 
-- Sync using the desktop app.
-- Slack me when you are finished or if you get stuck
+- [Instagram Rebuild](https://github.com/ADDA-html-css/F_2016_HTMLCSS_HW/tree/master/week3-position/instagramRebuild)
 - Try hard, but don't kill yourself over getting it pixel perfect. This is an exercise in styling and positioning.
