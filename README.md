@@ -15,26 +15,24 @@ comment
 **[Week 2](https://github.com/ADDA-html-css/learn-HTML-CSS/tree/master/week2)**
 - Class v. ID
 - Understanding the box model
-- CSS display property
-- CSS colors
-- CSS positioning
 
 [Homework](https://github.com/ADDA-html-css/F_2016_HTMLCSS_HW/tree/master/week2)
 
 [Class Presentation](https://docs.google.com/presentation/d/15qZMwHLy1dfYVitkMSCTMsukW7i6WowRBG5wQ6vbj-E/edit?usp=sharing)
 
 **Week 3**
-- Semantic HTML
+- CSS display property
+- CSS positioning
 - Backgrounds
 
-<!--
 [Class Presentation](https://docs.google.com/presentation/d/1xwsygpjQQnw5ogkAuBvx606Q_BR1pvhojgYzwth7J1o/edit?usp=sharing)
 
-[Homework](https://classroom.github.com/assignment-invitations/76c85c2d667f86bfcbe5d6e333a231df)
--->
+[Homework](https://github.com/ADDA-html-css/F_2016_HTMLCSS_HW/tree/master/week3-position)
 
 **Week 4**
+- Semantic HTML
 - Fonts
+- CSS colors
 - Floats
 - Flexbox 
 
