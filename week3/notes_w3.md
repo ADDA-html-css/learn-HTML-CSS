@@ -120,7 +120,6 @@ Possible Responses
 	width:100px;
 }
 
-
 .footer{
 	background: #BADA55;
 	width: 100%;
