@@ -1,0 +1,32 @@
+.box{
+	width: 200px;
+	height: 200px;
+	background-color: #BADA55;
+	/*border short code is size, style, color*/
+	border: 1px dashed black;
+
+	/*display recap
+		inline means in line with other elements
+		block means elements take up a 'block' of space, think building blocks
+		inline-block means elements take up a block of space, but are inline with other elements
+	*/
+
+	display: inline-block;
+	margin: 10px;
+}
+
+ul{
+	text-align: center;
+}
+
+li{
+	/*display: block;*/
+	/*width: 300px;*/
+	background-color: pink;
+}
+
+#two{
+	/*display property of none removes the element from view and the space collapses*/
+	/*visibilty: hidden keeps the space the element takes up there, but hides the contents*/
+	display: none;
+}
