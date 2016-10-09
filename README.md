@@ -30,17 +30,14 @@ comment
 [Homework](https://github.com/ADDA-html-css/F_2016_HTMLCSS_HW/tree/master/week3-position)
 
 **Week 4**
-- Semantic HTML
 - Fonts
 - CSS colors
 - Floats
 - Flexbox 
 
-<!--
 [Class Presentation](https://docs.google.com/presentation/d/1tR2OhVUOsHWegzisEGct9GbngXTMuPVfoKcT6M7f_ls/edit?usp=sharing)
 
-[Homework](https://github.com/awdriggs-html-css/HTML-CSS-spring16/blob/master/week4/README.md)
--->
+[Homework](https://github.com/ADDA-html-css/F_2016_HTMLCSS_HW/tree/master/week4-tattly)
 
 **Week 5**
 - Layering with z-index
@@ -49,6 +46,7 @@ comment
   
 **Week 6**
 - Responsive Web Design, using media queries
+- Semantic HTML
 
 <!--
 [Homework](https://classroom.github.com/assignment-invitations/e06999b6ddebd06de27d1b57b004b19b)

@@ -1,0 +1,21 @@
+.container{
+	width: 800px;
+	background-color: #B2675E;
+	margin:0 auto;
+}
+
+aside{
+	background-color: #F55536;
+	float: left;
+	width: 500px;
+	height: 500px;
+
+}
+
+.clearfix:after { 
+   content: "."; 
+   visibility: hidden; 
+   display: block; 
+   height: 0; 
+   clear: both;
+}

@@ -1,0 +1,18 @@
+
+
+
+body{
+	font-family: 'Open Sans', sans-serif;
+	background-image: url('concrete_wall_2.png');
+}
+
+#page-wrapper{
+	width: 940px;
+	margin: 0 auto;
+	background: #fff;
+	padding: 20px;
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Poiret One', cursive;
+}
