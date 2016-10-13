@@ -1,0 +1,17 @@
+.box:hover{
+	background-color: green;
+}
+
+.box:first-child{
+	background-color: pink;
+}
+
+.box:last-child{
+	background-color: lime;
+}
+
+.box:nth-child(5){
+	color: purple;
+}
+
+/*notice, that the first-child psuedo class takes precendence over the hover*/

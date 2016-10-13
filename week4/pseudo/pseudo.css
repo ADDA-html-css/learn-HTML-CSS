@@ -1,0 +1,52 @@
+.txt, .btn{
+	width: 300px;
+	height: 30px;
+	border: solid 2px #eee;
+	border-radius: 0;
+}
+
+.btn{
+	background-color: white;
+	border: solid 2px #91F5AD;
+	color: #91F5AD;
+}
+
+.btn:hover{
+	/*this will happen when the cursor is on the button*/
+	background-color: #91F5AD;
+	color: white;
+}
+
+.txt:focus{
+	outline: none;
+	border: solid 2px pink;
+}
+
+li:first-child{
+	color: blue;
+}
+
+li:last-child{
+	background-color: blue;
+}
+
+li:nth-child(2){
+	color: red;
+}
+
+li:nth-child(3){
+	color: silver;
+}
+
+.box:first-child
+
+
+
+
+
+
+
+
+
+
+

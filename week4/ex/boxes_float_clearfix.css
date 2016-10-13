@@ -1,0 +1,41 @@
+.box{
+	width: 200px;
+	height: 200px;
+	background-color: blue;
+	color: white;
+	font-size: 20px;
+
+	float: left;
+	margin: 6px;
+}
+
+.wrapper{
+	width: 850px;
+	background-color: black;
+
+}
+
+.clear{
+	content: '.';
+	visibility: none;
+	height: 0;
+	clear: both;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,46 @@
+.box{
+	width: 200px;
+	height: 200px;
+	background-color: blue;
+	color: white;
+	font-size: 20px;
+	margin: 6px;
+
+	text-align: center;
+	font-size: 120px;
+	/*to vertical align in the center, I add some padding to the top*/
+	padding-top: 30px;
+	/*this makes it so the padding is included in the height of 200px*/
+	box-sizing: border-box; 
+}
+
+/*this is showing flex*/
+.wrapper{
+	padding: 6px;
+	width: 850px;
+	background-color: black;
+	height: 424px;
+	/*this sets the wrapper to be a flex container*/
+	display: flex;
+	/*this will wrap over two lines*/
+	flex-wrap: wrap;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
