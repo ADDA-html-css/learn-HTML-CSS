@@ -1,0 +1,23 @@
+.orange{
+	background-color: #FFA500;
+	top: 50px;
+	left: 50px;
+}
+
+.purple{
+	background-color: #8822FF;
+	top: 100px;
+	left: 100px;
+}
+
+.white{
+	background-color: #f0f0f0;
+}
+
+.box{
+	width: 200px;
+	height: 200px;
+	/*zindex will only work with positioned elements*/
+	position: absolute; 
+	border: 1px solid black;
+}

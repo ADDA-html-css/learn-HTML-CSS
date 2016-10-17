@@ -1,0 +1,30 @@
+body{
+	background-color: orange;
+}
+
+.wrapper{
+	width: 900px;
+	height: 900px;
+
+	margin: 0 auto;
+	padding-top: 50px;
+	padding-left: 200px;
+	background-color: orange;
+	
+}
+
+img{
+	position: relative;	/*zindex only works with postioned elements*/
+	height: 300px;
+	margin-left: -100px;
+}
+
+/* No need to edit the html!*/
+/* use zindex to move your least favorite simpsons character behind the orange div*/
+
+/* use zindex to put your favorite characters on top of all the others*/
+
+/* can you make the image that the mouse is over come to the front?*/
+
+/* BONUS, use hover to change the size when you hover over an image, */
+/* can you make this happen smoothly?*/

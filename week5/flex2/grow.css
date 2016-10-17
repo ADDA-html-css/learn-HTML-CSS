@@ -1,0 +1,24 @@
+body{
+  color: white;
+  font-size: 20px;
+}
+
+.header {
+  background-color: #ccc; 
+	display: flex;
+	max-width: 900px;
+}
+
+.left {
+	background-color: #bf4c3a;
+  width: 20%;
+  height: 50px;
+  /*flex-grow: 2; */
+}
+
+.right {
+  width: 50%;
+  height: 50px;
+	background-color: #2893c7;
+  /* flex-grow: 1; */
+}
