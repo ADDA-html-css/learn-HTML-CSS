@@ -5,6 +5,9 @@
 
 	/*how do you make this a flext container?*/
 	/*Use flex to make a 4 x 3 grid*/
+
+	display: flex;
+	flex-wrap: wrap;
 }
 
 .gi{
@@ -13,11 +16,21 @@
 	width: 200px;
 	height: 200px;
 	background-color: #8822FF;
+
+	transition: border-radius 2s;
+	transition-timing-function: ease-out;
+	
+	transition: background-color 10s;
 }
 
 /*make the first grid element a perfect circle without touching the html!*/
+.gi:first-child:hover{
+	border-radius: 100px;
 
+}
 /*when you hover over the elements, make them change color*/
-
+.gi:hover{
+	background-color: yellow;
+}
 
 

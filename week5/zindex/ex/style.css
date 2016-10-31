@@ -2,6 +2,9 @@ body{
 	background-color: orange;
 }
 
+body *{
+	border: 1px solid black;
+}
 .wrapper{
 	width: 900px;
 	height: 900px;
@@ -17,8 +20,23 @@ img{
 	position: relative;	/*zindex only works with postioned elements*/
 	height: 300px;
 	margin-left: -100px;
+
+	transition: height 1s;
+	transition: width 2s;
 }
 
+.burns {
+	z-index: -100;
+}
+
+.nelson {
+	z-index: 10;
+}
+img:hover{
+	z-index: 1000;
+	height: 500px;
+	width: 2000px;
+}
 /* No need to edit the html!*/
 /* use zindex to move your least favorite simpsons character behind the orange div*/
 

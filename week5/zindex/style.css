@@ -8,10 +8,12 @@
 	background-color: #8822FF;
 	top: 100px;
 	left: 100px;
+	z-index: -10;
 }
 
 .white{
 	background-color: #f0f0f0;
+	/*z-index: 10;*/
 }
 
 .box{
@@ -20,4 +22,10 @@
 	/*zindex will only work with positioned elements*/
 	position: absolute; 
 	border: 1px solid black;
+	/*a stands for alpha, the transperancy*/
+	box-shadow: 10px 10px 10px rgba(100, 0, 0, 0.5);
+}
+
+.box:hover{
+	z-index: 10;
 }

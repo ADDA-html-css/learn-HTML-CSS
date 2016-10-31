@@ -4,6 +4,7 @@
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-image: url('https://cdn.shopify.com/s/files/1/0818/5843/t/12/assets/JOES_KC.png?7250087764874986443');
+	float: right;
 }
 
 .container{
@@ -13,3 +14,12 @@
 	margin:0 auto;
 }
 
+.clearfix:after{
+	content: "hello?";
+	visibility: hidden;
+	display: block;
+	height: 0;
+
+	/*clear all the floats*/
+	clear: both;
+}
