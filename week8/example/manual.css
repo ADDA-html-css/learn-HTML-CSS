@@ -2,3 +2,7 @@
 	border: 1px solid red;
 }*/
 
+.nav>li>a:focus, .nav>li>a:hover{
+	/*this is overriding bootstrap css*/
+	background-color: #BADA55;
+}
