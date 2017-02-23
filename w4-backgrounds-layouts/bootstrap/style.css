@@ -1,0 +1,14 @@
+.wrapper {
+  padding: 50px;
+  margin-bottom: 50px;
+  border: solid #7D84B2 1px;
+}
+.row {
+  border: solid #8FA6CB 1px;
+}
+
+.colStyle{
+  background-color: #D5F9DE;
+  border: solid #7CF99C 1px;
+}
+

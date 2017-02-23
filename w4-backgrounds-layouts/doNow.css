@@ -1,0 +1,13 @@
+.box {
+	display: inline-block;
+	position: relative;
+	/*why relative*/
+	width: 200px;
+	height: 200px;
+	background-color: #BBAADD; 
+}
+
+button {
+/*postion the button in the right-bottom corner of the box*/
+}
+
