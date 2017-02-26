@@ -1,0 +1,38 @@
+
+
+body {
+  font-family: "Open Sans", sans-serif;  
+}
+
+h1, h2, h3{
+  border-bottom: 1px solid #1B5299; 
+  color: #1B5299;
+}
+
+ul{
+  margin-bottom: 50px;
+  list-style: none;
+}
+
+#wrapper{
+  width: 800px;
+  margin: 10px auto;
+
+}
+
+a{
+  text-decoration: none;
+  padding-left: 10px;
+  color: grey;
+  transition: color 1s;
+  transition: padding 1s;
+}
+
+a:visited{
+  color: grey;
+}
+
+a:hover{
+  color: #1B5299;
+  padding-left: 0px;
+}
