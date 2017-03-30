@@ -44,21 +44,4 @@
   - Custom Post Types
   - Custom Taxonomies
 
-## Theme Development
-  - Slide, wtf is php
-  - Slide, Theme development starters
-  - Download [naked theme](http://naked-wordpress.bckmn.com/)
-  - Upload the theme using the themes admin panel
-  - Your Turn: Catch up, install and activate the naked theme. Preview [anatomy of a wp page](https://cdn-images.yoast.com/uploads/2011/01/anatomy-wordpress-yoast.png)
-  - Slide, WP page anatomy
-  - Slide, the WP loop
-  - Add a background to the header
-```
-   background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
-```
-- Walk through using the inspector to change a style. Change the font size of the body
-- Show were to add custom CSS to your page.
 
-## Final Project
-  - Slide, introducing the project
-  - Slide, submission details
