@@ -1,6 +1,7 @@
 # Week 2 - Elements of Design
 
 ## Objectives
+- I can investigate how color, typography, and layout work together in the design of a website.
 
 ## Getting Started
 - find the errors in the code
@@ -48,8 +49,7 @@ Just like with typography, colors can tell a story.
 
 ### Exercise
 Tell a story using a color scheme.
-- Remix this [page](https://thimbleprojects.org/awdriggs/200681)
-
+- Remix `exercises/color.html` and `exercises/.css`
 
 ## Resources
 - [Coolors](https://coolors.co)
@@ -81,18 +81,24 @@ But, choosing a website is more nuanced than just choosing between two font styl
 ### Live Code
 - Show how to add a font from google font.
 - Show how to apply in thimble
-- Show how padding and margin work
+- Show how padding and margin work to offset text
+- How how to center the page.
+``` css
+  width: 900px;
+  margin: 10px auto;
+```
 
 ### Exercise - 10 min
-[Typography Exercise](https://thimbleprojects.org/awdriggs/200137)
+- Open `exercises/type.html` in Chrome
+- Remix `exercises/type.css'
 - Don't worry about the html, only change the css
 - Follow the comments.
-
 
 ## Mini-Lesson 3, Layout
 Design Patterns
 -show common design patterns
 
+## maybe save for later?
 ### Live Code
 - [Starter Code](https://thimbleprojects.org/awdriggs/201334)
 - HTML is done

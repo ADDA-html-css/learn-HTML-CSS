@@ -1,0 +1,9 @@
+body {
+	background-color: #BADA55;
+}
+
+/*Select the div with id="page"*/
+#page {
+	background-color: #FFF;
+	/*#FFF is just shorthad for #FFFFFF i.e. white*/
+}

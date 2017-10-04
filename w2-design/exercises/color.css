@@ -1,0 +1,47 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  
+}
+
+header {
+  margin-top: -25px;
+  height: 250px;
+  padding-top: 100px;
+  text-align: center;
+  
+  /*Change this color!*/
+  background-color: lightgrey;
+  
+/*Change the text color*/
+}
+
+header h1{
+  font-size: 5rem; 
+}
+
+button {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  box-shadow: none;
+  border: none;
+  margin: 0 auto;
+  display: block;
+  
+  /*Use color to draw attention to the round button*/
+  
+}
+
+strong {
+/* add a background color */
+  
+/* change the text color*/
+}
+
+p {
+  width: 600px;
+  display: block;
+  margin: 50px auto;
+}
+  

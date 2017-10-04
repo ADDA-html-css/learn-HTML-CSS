@@ -2,27 +2,38 @@
 <!--
 comment
 -->
+
+idea, strip all but what is essential. each week, there is an in class challenge(s). 
+the homework for each week to to improve on a long term project.
+
 ## Calendar
 **[Week 1](https://github.com/ADDA-html-css/learn-HTML-CSS/tree/master/week1)**
 - Getting to know the html/css stack
 - Basic HTML
 - A glimpse of CSS
+- In Class: meme maker
 
 [Homework](https://github.com/ADDA-html-css/F_2016_HTMLCSS_HW/blob/master/w1-start)
 
 [Class Presentation](https://docs.google.com/presentation/d/1kMzZlsrgdeMjtAOK6AVs8Q8V0rqQg_akyTaFgHoNiEo/edit?usp=sharing)
 
-**[Week 2](https://github.com/ADDA-html-css/learn-HTML-CSS/tree/master/w2-css)**
+**[Week 2]()**
+- Design Concepts...
+- wireframing and prototyping
+- homework: wireframe a site
+
+**[Week 3]()**
 - Class v. ID
 - Understanding the box model
+- CSS positioning
 
 [Homework](https://github.com/ADDA-html-css/F_2016_HTMLCSS_HW/tree/master/week2)
 
 [Class Presentation](https://docs.google.com/presentation/d/15qZMwHLy1dfYVitkMSCTMsukW7i6WowRBG5wQ6vbj-E/edit?usp=sharing)
 
-**Week 3**
-- CSS display property
-- CSS positioning
+> find a place for this
+**Week 4**
+- CSS display property 
 - Backgrounds
 
 [Class Presentation](https://docs.google.com/presentation/d/1xwsygpjQQnw5ogkAuBvx606Q_BR1pvhojgYzwth7J1o/edit?usp=sharing)
@@ -30,10 +41,13 @@ comment
 [Homework](https://github.com/ADDA-html-css/F_2016_HTMLCSS_HW/tree/master/w3-position)
 
 **Week 4**
+rework this
 - Fonts
 - CSS colors
 - Floats
 - Flexbox 
+- semantic tags???? 
+ 
 
 [Class Presentation](https://docs.google.com/presentation/d/1tR2OhVUOsHWegzisEGct9GbngXTMuPVfoKcT6M7f_ls/edit?usp=sharing)
 
