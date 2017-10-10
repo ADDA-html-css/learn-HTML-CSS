@@ -1,0 +1,45 @@
+/*Font Family and size*/
+body{
+/*  Chagne the font-size, this is the 'global' size, fonts will resize relative to this! default is 16px*/
+  
+/*Apply the font-family*/
+}
+
+h1, h2, h3, p {
+/*Spacing*/
+/*Change the line height*/
+
+/*Add some Margin*/
+  
+/*Play with letter spacing*/
+/*Play with word spacing*/
+    
+}
+
+/*feel free to write individual rules for the different parts of the text.*/
+
+main{
+  /*don't touch, this is setting the border.*/
+  border: 1px solid black; 
+  
+  /*add some padding*/
+  
+}
+
+section{
+/*set the width of the section*/
+}
+
+a {
+/* Change the color of the link */
+}
+
+/*ready for a challenge?*/
+/*Try some text properties, make the title uppercase*/
+
+/*Indent the each paragraph*/
+
+/*Try a drop cap*/
+/*http://www.w3schools.com/cssref/sel_firstletter.asp*/
+
+
