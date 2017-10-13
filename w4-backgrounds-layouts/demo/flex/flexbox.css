@@ -1,0 +1,31 @@
+h1{
+	text-align: center;
+	font-family: helvetica;
+}
+
+.wrapper{
+	width: 900px;
+	margin: 0 Auto;
+	background-color: #BADA55;
+
+	display: flex;
+  align-items: center;
+	/* flex-wrap: wrap; */
+}
+
+.box{
+	background-color: orange;
+	width: 100px;
+	height: 100px;
+	margin: 10px;
+
+	/* flex-grow: 1; */
+}
+
+.fig{
+  height: 300px;
+	flex-grow: 3;
+}
+
+
+

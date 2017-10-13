@@ -1,0 +1,20 @@
+body{
+	margin: 0;
+	font-family: "Helvetica Neue";
+}
+
+div{
+	padding: 100px;
+	background-color: cornFlowerBlue;
+}
+
+.bg-image{
+	display: block;
+	height: 600px;
+	background-image: url('https://wallpaperscraft.com/image/futurama_doctor_zoidberg_69273_1920x1080.jpg');
+
+	background-size: cover;
+	background-position: 50% 50%;
+	/*this makes the background stick in place*/
+	background-attachment: fixed;
+}
