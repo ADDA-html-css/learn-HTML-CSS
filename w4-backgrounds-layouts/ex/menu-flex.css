@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Chewy', cursive; 
+}
+body {
+  background-color: #AEECEF; 
+}
+
+#wrapper {
+  width: 900px;
+  margin: 0 auto;
+}
+
+.header {
+  padding: 20px;
+  background-color: #fff; 
+}
+
+.menu {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+
+  /* make this a flex container */
+   
+  /* play with the spacing */ 
+   
+  /* play with alignment */
+}
+
+.menu a {
+  display: block;
+  width: 100%;
+  padding: 15px;
+  text-align: center;
+   
+  font-size: 40px;
+  text-decoration: none;
+  color: #F991CC;
+   
+}
+
+.menu a:hover {
+  background-color: #F991CC;
+  color: #FFF; 
+}
+ 
+/* another psuedo class */
+/* this one only effects the first li in main */
+/* here it is applying flxe grow to just the first li */
+/* turn it on and off to see what it does */
+.menu li:first-child {
+  /* flex-grow: 1; */
+}
+ 
+.menu .logo{
+  background-image: url("https://media.giphy.com/media/ISjYZh2up6Pn2/giphy.gif");
+  width: 150px;
+  height: 150px;
+  background-size: cover;
+  margin-right: auto; 
+}
+
+h2 {
+  font-size: 40px;
+  color: #2A1E5C;
+}
