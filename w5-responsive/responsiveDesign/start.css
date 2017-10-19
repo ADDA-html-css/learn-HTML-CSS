@@ -1,0 +1,59 @@
+/*start .css*/
+
+/*mobile first rules*/
+html {
+	background-color: red;
+	font-size: 14px;
+}
+
+h1{
+	font-size: 3rem;
+}
+
+p{
+	font-size: 1.25rem;
+}
+
+
+
+/*overriding the rules for different screen sizes*/
+@media (min-width: 500px){
+/*all the rules i'm going to change go in here*/
+	html{
+		background-color: green;
+		font-size: 20px;
+	}
+}
+
+@media (min-width: 900px){
+	html{
+		background-color: lightBlue;
+		font-size: 25px;
+	}
+}
+;
+@media (min-width: 1200px){
+	html{
+		background-color: purple;
+		font-size: 30px;
+	}
+}
+
+/*this is a media query for just printing!*/
+@media print {
+	h1{
+		color: blue;
+
+	}
+}
+
+
+
+
+
+
+
+
+
+
+

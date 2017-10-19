@@ -72,42 +72,42 @@ body{
 }
 
 #logo{
-display: block;
-         /*background-color: white;*/
-width: 500px;
-height: 500px;
-margin: 0 auto;
+  display: block;
+  /*background-color: white;*/
+  width: 500px;
+  height: 500px;
+  margin: 0 auto;
 
-        background-size: 100px;
+  background-size: 100px;
 
-        background-position: center;
+  background-position: center;
 
-        background-repeat: no-repeat;
+  background-repeat: no-repeat;
 
-        /*background-repeat: repeat-x;
-          background-repeat: repeat-y;*/
+  /*background-repeat: repeat-x;
+  background-repeat: repeat-y;*/
 
-        background-image: url('http://pre07.deviantart.net/08b2/th/pre/f/2012/050/0/b/planet_express_logo_by_chupacabrathing-d4qbo3v.png');
+  background-image: url('http://pre07.deviantart.net/08b2/th/pre/f/2012/050/0/b/planet_express_logo_by_chupacabrathing-d4qbo3v.png');
 }
 ```
 
-example
+- Hero image example
 ```css
 body{
-margin: 0;
-        font-family: "Helvetica Neue"
+  margin: 0;
+  font-family: "Helvetica Neue"
 }
 div{
-padding: 100px;
-         background-color: cornFlowerBlue;
+  padding: 100px;
+  background-color: cornFlowerBlue;
 }
 .bg-image{
-display: block;
-height:600px;
-       background-image: url('https://wallpaperscraft.com/image/futurama_doctor_zoidberg_69273_1920x1080.jpg');
-       background-size: cover;
-       background-attachment: fixed;
-       background-position: 50% 50%;
+  display: block;
+  height:600px;
+  background-image: url('https://wallpaperscraft.com/image/futurama_doctor_zoidberg_69273_1920x1080.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: 50% 50%;
 }
 ```
 #### Exercise, don't touch html!
@@ -136,26 +136,26 @@ body{
   background-image: url('./images/bart.png');
   background-position: right top;
   background-repeat: no-repeat;
-margin: 0;
-        background-attachment: fixed;
+  margin: 0;
+  background-attachment: fixed;
 }
 
 #logo{
-display: block;
-margin: 0 auto;
-width: 500px;
-height: 500px;
-        background-image: url('./images/krusty.gif');
-        background-position: center;
-        background-repeat: no-repeat;
+  display: block;
+  margin: 0 auto;
+  width: 500px;
+  height: 500px
+  background-image: url('./images/krusty.gif
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .hello{
-width: 100%;
-height: 500px;
-        background-image: url('./images/hello.gif');
-        background-size: 200px;
-        margin-top: 100px
+  width: 100%;
+  height: 500px;
+  background-image: url('./images/hello.gif');
+  background-size: 200px;
+  margin-top: 100px
 }
 ```
 
@@ -166,7 +166,6 @@ h1{
 	text-align: center;
 	font-family: helvetica;
 }
-
 .wrapper{
 	width: 900px;
 	margin: 0 Auto;
@@ -175,8 +174,7 @@ h1{
 	display: flex;
   align-items: center;
 	/* flex-wrap: wrap; */
-}
-
+} 
 .box{
 	background-color: orange;
 	width: 100px;
@@ -185,7 +183,6 @@ h1{
 
 	/* flex-grow: 1; */
 }
-
 .fig{
   height: 300px;
 	flex-grow: 3;
