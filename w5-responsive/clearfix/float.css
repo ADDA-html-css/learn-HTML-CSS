@@ -12,5 +12,6 @@
 	/*no height? The height should be determined by the content*/
 	background-color: #B2675E;
 	margin:0 auto;
+  padding: 10px;
 }
 

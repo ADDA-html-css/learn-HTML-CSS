@@ -26,8 +26,6 @@
 	width: 200px;
 	height: 200px;
 	background-color: #8822FF;
-	
-	
 }
 
 .gi:hover{
@@ -44,16 +42,17 @@
 ```
 
 Introduce Transitions
+-2 slides, one on transition, one on ease
+-show [ease demo](https://codepen.io/awdriggs/pen/qaLEwA)
+
 -add to gi
 ```css
-	transition: background-color 2s ease-out;
-	transition: border-radius 2s;
 	/*transition: background-color 2s;*/
-
+	transition: background-color 2s ease-out;
 ```
 
 ## Clearfix
--Show a better clearfix problem/solution
+-Show a solution clearfix problem/solution
 -float the logo left or right
 -What happens?
 ```
@@ -96,6 +95,7 @@ Introduce Transitions
 <mark>    highlight!
 <strong>  Bold, with added semantic importance.
 ```
+ 
 - build this ![example](http://www.w3schools.com/html/img_sem_elements.gif)
 
 ```html
@@ -115,6 +115,7 @@ Introduce Transitions
 	<footer><nav>This is the footer</nav></footer>
 
 ```
+>maybe kill the exercise?
 
 ### Exercise, build a sample blog page
 - Create a simple "blog" style page.
@@ -169,6 +170,7 @@ In its brief, filed in federal court in California, Apple said that the court sh
 ```
 
 ## Mini-lesson 2, Responsive design.
+
 ### Responsive Design
 Responsive Web Design is intended to make your web page look beautiful on all devices (desktops, tablets, and phones).
 
@@ -186,6 +188,7 @@ Your small screen styles are in your regular screen CSS and then as the screen g
 How do we achieve this? 
 - Media Queries
 - Responsive units
+
 
 ### Media Queries
 
@@ -208,50 +211,128 @@ Your Turn: Create a new media, when the screen is larger than 1100px, make the b
 - Breakpoints are the sizes where a page design "breaks," and we need to css rules to fix it. 
 - Choose breakpoints based on your design and not specific devices. This is best practice. Devices change all the time.
 - You can inspect how your page will look on different devices. (show chrome dev tools for different devices)
-
-### Responsive Units
-We want to get away from a reliance on using pixels as are only unit.
-- % Defines the width in percent of the containing block
-- rems, Relative to font-size of the root element
-- ems, Relative to the font-size of the element (2em means 2 times the size of the current font)
-
 ```
-/* Document level adjustments */
-html { 
-	background: red;
-	text-align: center;
-	font-size: 14px 
+/* Extra small devices (phones) */
+/* Small devices (tablets) */
+@media (min-width: 768px) { ... }
+/* Medium devices (desktops) */
+@media (min-width: 992px) { ... }
+/* Large devices (large desktops) */
+@media (min-width: 1200px) { ... }
+``` 
+ 
+### Responsive Units
+We want to get away from a reliance on using pixels as our only unit.
+- % Defines the size in percent of the containing block
+- ems, defines the size based on the parents size, scaled by the number given. 
+  + ex: parent's font-size is 14px, child font-size is 1.5ems, this is equivalent to 21px;
+- rems, literally "root ems", size is based off the size of the root (html tag) and scaled by the number
+  + ex: root size is 10px, child size is 3rems, this is equivalent to 30px; 
+- demo the percent and the rems by adding onto sample code...
+ 
+-final code
+```
+/* base rules, will be applied to everyting */
+html {
+  background-color: red;
+  font-size: 14px;
 }
 
+/* need some clear fix */
+.clear:after {
+  content: "you can't see me";
+  visibility: hidden;
+  height: 0;
+  clear: both;
+  display: block;
+}
+
+/* generic menu styling */
+menu {
+  padding: 0;
+}
+
+menu ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+ 
+/*mobile first rules, going to overwrite later*/
 h1 {
   font-size: 3rem;
 }
-h2 {
-  font-size: 2.5rem;
-}
-h3 {
-  font-size: 2rem;
+
+p {
+  font-size: 1.25rem;
 }
 
-p{
-	font-size:1.25rem;
+aside {
+  display: none;
 }
 
-@media (min-width: 500px){
-  html { 
-  	background: green;
-  	font-size: 15px;
+.wrapper {
+  padding: 5%;
+}
+
+
+/*overriding the rules for different screen sizes*/
+@media (min-width: 500px) {
+  /*all the rules i'm going to change go in here*/
+  html {
+    background-color: green;
+    font-size: 20px;
   }
+   
+  .wrapper {
+    max-width: 900px;
+    background-color: grey;
+  }
+   
+  aside {
+    display: inline-block;
+    width: 30%;
+    background-color: white;
+  }
+
+  article {
+    display: inline-block;
+    float: right;
+    width: 60%;
+    background-color: blue; 
+  }
+
 }
 
 @media (min-width: 900px) {
-  html { 
-  	background: blue; 
-  	font-size: 17px;
+  html {
+    background-color: lightBlue;
+    font-size: 25px;
+  }
+   
+  .wrapper {
+    margin: 0 auto;
+  }
+   
+}
+
+@media (min-width: 1200px) {
+  html {
+    background-color: purple;
+    font-size: 30px;
+  }
+}
+
+
+/*this is a media query for just printing!*/
+
+@media print {
+  h1 {
+    color: blue;
   }
 }
 ```
-
+ 
 ###You Do
 - Don't Touch html!
 - Write CSS, in mobile, the two divs should sit on top of each other.
@@ -329,9 +410,6 @@ footer{
 
 }
 ```
-
-Homework
-[Responsive Patterns](https://github.com/ADDA-html-css/F_2016_HTMLCSS_HW/tree/master/w7-responsive)
 
 ## Github Page For Hosting!
 - Create a new repo, named username.github.io
