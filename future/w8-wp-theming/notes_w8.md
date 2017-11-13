@@ -1,3 +1,5 @@
+share the [development site](https://ide.c9.io/awdriggs/belle_books)
+
 ## Theme Development
   - Slide, wtf is php
   - Slide, Theme development starters
