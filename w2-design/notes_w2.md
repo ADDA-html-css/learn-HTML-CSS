@@ -6,8 +6,15 @@
 ## Getting Started
 - find the errors in the code
 
+## Housekeeping
+- Make sure everyone has Sublime.
+- Share all files as a zip. 
+- Show how to unzip. have students put the folder somewhere safe, ie. docs, desktop, a folder named 'adda'
+- Often students struggle to understand how to open code files. Be slow and explicit here. Show how to launch sublime to the browswer, i.e. right click, launch in browser.
+- Show how to drag the whole folder to sublime so students have all files.
+
 ## Introduction to Design
-There are basic design principles that are commonly discussed.
+There are basic design principles that are commonly discussed. Go through slides and dicuss with all. 
 - Balance
   + Balance is an equal distribution of weight. In terms of graphics, this applies to visual weight.
 - Unity
@@ -33,13 +40,13 @@ Primary colors are used as the basis for all colors.
 
 On the web, we use red green and blue for the basis of all colors. These are expressed by either rgb or hex values.
 
-There are 4 basic color schemes that designers use.
+There are 4 basic color schemes that designers use. Show using [Adobe Color App](https://color.adobe.com/).
 - Triad
 - Split Complimentary
 - Analogous
 - Monochromatic
 
-Just like with typography, colors can tell a story.
+When designing, colors can tell a story.
 - Think about your audience.
 - What feelings do you want to convey?
 - Colors can draw attention to elements and create emphasis.
@@ -50,6 +57,7 @@ Just like with typography, colors can tell a story.
 ### Exercise
 Tell a story using a color scheme.
 - Remix `exercises/color.html` and `exercises/.css`
+- Later, Go over the exercise with students, take just their css and put it up, see if people can guess the emotion.
 
 ## Resources
 - [Coolors](https://coolors.co)
@@ -80,7 +88,7 @@ But, choosing a website is more nuanced than just choosing between two font styl
 
 ### Live Code
 - Show how to add a font from google font.
-- Show how to apply in thimble
+- Show how to apply in sublime, using the `<link>` from html and font family property in css 
 - Show how padding and margin work to offset text
 - How how to center the page.
 ``` css
@@ -102,7 +110,6 @@ Design Patterns
 - Intro wireframes
 - Have students choose a site, do a wireframe of that site.
 - [ex + hw template[(https://docs.google.com/document/d/1t-bbm5FXT4a99HKeyhlICLdSv_OSBQmkxbhlKoD1KyU/edit?usp=sharing)
-
 
 ### Resources
 [Web Design Principles](http://learndesignprinciples.com/index.html)
