@@ -91,6 +91,7 @@ But, choosing a website is more nuanced than just choosing between two font styl
 - Show how to apply in sublime, using the `<link>` from html and font family property in css 
 - Show how padding and margin work to offset text
 - How how to center the page.
+
 ``` css
   width: 900px;
   margin: 10px auto;
@@ -112,7 +113,7 @@ Design Patterns
 - [ex + hw template[(https://docs.google.com/document/d/1t-bbm5FXT4a99HKeyhlICLdSv_OSBQmkxbhlKoD1KyU/edit?usp=sharing)
 
 ### Resources
-[Web Design Principles](http://learndesignprinciples.com/index.html)
-[Smashing Mag: Design Principles](https://www.smashingmagazine.com/2015/06/design-principles-compositional-balance-symmetry-asymmetry/)
-[AirBnb Design Post](http://airbnb.design/building-a-visual-language/)
-[12 Web Design Patterns](https://www.uxpin.com/studio/blog/web-layout-best-practices-12-timeless-ui-patterns-explained/)
+- [Web Design Principles](http://learndesignprinciples.com/index.html)
+- [Smashing Mag: Design Principles](https://www.smashingmagazine.com/2015/06/design-principles-compositional-balance-symmetry-asymmetry/)
+- [AirBnb Design Post](http://airbnb.design/building-a-visual-language/)
+ [12 Web Design Patterns](https://www.uxpin.com/studio/blog/web-layout-best-practices-12-timeless-ui-patterns-explained/)

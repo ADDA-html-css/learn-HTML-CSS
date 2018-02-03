@@ -1,5 +1,5 @@
-/*selecting the all divs with class="box"*/
-.box {
+/*selecting the all divs */
+div {
 	width: 200px;
 	height: 200px;
 	display: inline-block;
