@@ -12,7 +12,8 @@
 - Show how to unzip. have students put the folder somewhere safe, ie. docs, desktop, a folder named 'adda'
 - Often students struggle to understand how to open code files. Be slow and explicit here. Show how to launch sublime to the browswer, i.e. right click, launch in browser.
 - Show how to drag the whole folder to sublime so students have all files.
-
+- Open up `donow` folder, have students give answer to the getting started task. Open in chrome to check code.
+ 
 ## Introduction to Design
 There are basic design principles that are commonly discussed. Go through slides and dicuss with all. 
 - Balance
