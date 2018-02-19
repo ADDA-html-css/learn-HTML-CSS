@@ -1,0 +1,25 @@
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+#container{
+  width: 800px;
+  margin: 0 auto;
+}
+
+.header{
+  background-color: #33A1FD;
+}
+
+.sidebar{
+  background-color: #F55536;
+}
+
+.main{
+  background-color: #F79824;
+}
+
+.footer{
+  background-color: blue;
+}
+

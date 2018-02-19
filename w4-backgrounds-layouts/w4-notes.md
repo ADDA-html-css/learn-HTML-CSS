@@ -10,6 +10,45 @@ notes
 ## Objectives
 - I can build a menu of links to access different pages
 - I can use the CSS background properties to insert images and backgrounds.
+## Mini-Lesson 0, layout with foats
+
+### Live Code
+- starter code is `layout.html` and `layout.css`   
+- HTML is done
+- Add to the CSS
+
+```css
+#container{
+  width: 800px;
+  margin: 0 auto;
+  height: 30px;
+}
+
+header{
+  height: 60px;
+  background-color: #33A1FD;
+}
+
+sidebar{
+  background-color: #F55536;
+  float: left;
+  width: 300px;
+  height: 400px;
+}
+
+main{
+  float: right;
+  width: 500px;
+  height: 200px;
+  background-color: #F79824;
+}
+
+footer{
+  height: 200px;
+  background-color: blue;
+  clear: both;
+}
+```
 
 ## Mini-Lesson 1, build a menu
 -build the menu in the index.html
