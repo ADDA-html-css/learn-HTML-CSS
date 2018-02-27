@@ -1,17 +1,17 @@
-.logo{
-	width: 400px;
-	height: 400px;
-	background-size: contain;
-	background-repeat: no-repeat;
-	background-image: url('https://cdn.shopify.com/s/files/1/0818/5843/t/12/assets/JOES_KC.png?7250087764874986443');
-	float: right;
+.logo {
+  width: 400px;
+  height: 400px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url('https://cdn.shopify.com/s/files/1/0818/5843/t/12/assets/JOES_KC.png?7250087764874986443');
+  float: right;
 }
 
-.container{
-	width: 800px;
-	/*no height? The height should be determined by the content*/
-	background-color: #B2675E;
-	margin:0 auto;
+.container {
+  width: 800px;
+  /*no height? The height should be determined by the content*/
+  background-color: #B2675E;
+  margin: 0 auto;
   padding: 10px;
 }
 

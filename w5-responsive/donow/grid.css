@@ -1,22 +1,21 @@
-.wrapper{
-	width: 850px;
-	padding:12.5px 0 0 12.5px;
-	background-color: #eee;
-
-	/*how do you make this a flex container?*/
-	/*Use flex to make a 4 x 3 grid*/
+.wrapper {
+  width: 880px;
+  height: 660px;
+  padding: 10px;
+  background-color: #eee;
 }
 
-.gi{
-/* style the grid items */
-
+.gi {
+  /* style the grid items */
+  /* make the width and height 200px */
+  /* make the margin 10px on all sides */
+  /* add some background color, or a background image if you are feeling fancy */
+  /* how can you get the elements be side by side with each other? hint in line with each other */
+  /* float the grid items to the left */
 }
+
 
 /*when you hover over the elements, make them change color*/
-.gi:hover{
-	background-color: yellow;
-}
- 
+
+
 /*BONUS! make the first grid element a perfect circle without touching the html!*/
-
-

@@ -56,16 +56,125 @@ Introduce Transitions
 -float the logo left or right
 -What happens?
 ```
-.clearfix:after{
-	content: "hello?";
-	visibility: hidden;
-	display: block;
-	height: 0;
-
-	/*clear all the floats*/
-	clear: both;
+.clear-fix:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 ```
+
+## Mini-Lesson 3: flexbox
+- There is html in a starter file
+```css
+h1{
+	text-align: center;
+	font-family: helvetica;
+}
+.wrapper{
+	width: 900px;
+	margin: 0 Auto;
+	background-color: #BADA55;
+
+	display: flex;
+  align-items: center;
+	/* flex-wrap: wrap; */
+} 
+.box{
+	background-color: orange;
+	width: 100px;
+	height: 100px;
+	margin: 10px;
+
+	/* flex-grow: 1; */
+}
+.fig{
+  height: 300px;
+	flex-grow: 3;
+}
+```
+ 
+Play, 5 minutes or so
+- Go to this website, http://codepen.io/enxaneta/full/adLPwv/
+- Mess around with the flexbox features.
+
+### Position Exercise
+- build a flex box menu, use menu-flex.html and menu-flex.html
+- follow the comments.
+- Solution
+
+```
+* {
+  box-sizing: border-box;
+  font-family: 'Chewy', cursive; 
+}
+body {
+  background-color: #AEECEF; 
+}
+
+#wrapper {
+  width: 900px;
+  margin: 0 auto;
+}
+
+.header {
+  padding: 20px;
+  background-color: #fff; 
+}
+
+.menu {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+
+  /* make this a flex container */
+  display: flex;
+   
+  /* play with the spacing */ 
+  justify-content: flex-start; 
+   
+  /* play with alignment */
+  align-items: center;
+}
+
+.menu a {
+  display: block;
+  width: 100%;
+  padding: 15px;
+  text-align: center;
+   
+  font-size: 40px;
+  text-decoration: none;
+  color: #F991CC;
+   
+}
+
+.menu a:hover {
+  background-color: #F991CC;
+  color: #FFF; 
+}
+ 
+/* another psuedo class */
+/* this one only effects the first li in main */
+/* here it is applying flxe grow to just the first li */
+/* turn it on and off to see what it does */
+.menu li:first-child {
+  /* flex-grow: 1; */
+}
+ 
+.menu .logo{
+  background-image: url("https://media.giphy.com/media/ISjYZh2up6Pn2/giphy.gif");
+  width: 150px;
+  height: 150px;
+  background-size: cover;
+  margin-right: auto; 
+}
+
+h2 {
+  font-size: 40px;
+  color: #2A1E5C;
+}
+```
+
 
 ## Mini-Lesson, semantic html
 - Semantics, n. the branch of linguistics and logic concerned with meaning.
@@ -169,6 +278,7 @@ In its brief, filed in federal court in California, Apple said that the court sh
         
 ```
 
+# push to week 7
 ## Mini-lesson 2, Responsive design.
 
 ### Responsive Design
