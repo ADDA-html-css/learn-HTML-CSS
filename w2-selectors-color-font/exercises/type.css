@@ -3,8 +3,11 @@ body{
 /*  Chagne the font-size, this is the 'global' size, fonts will resize relative to this! default is 16px*/
   
 /*Apply the font-family*/
+
 }
 
+/* After you get your font working, try playing with some different properties. Lookup how do do anything unfamilar. */
+ 
 h1, h2, h3, p {
 /*Spacing*/
 /*Change the line height*/
