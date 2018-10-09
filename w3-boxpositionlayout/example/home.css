@@ -1,0 +1,49 @@
+body {
+  font-family: 'Niramit', sans-serif;
+  color: #031927;
+  background-color: #bfbfbf;
+   
+}
+
+.page-wrapper {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.page-header {
+}
+
+.page-header img{
+  border-radius: 50%;
+  display: block;
+  width: 200px;
+  margin: 50px auto;
+}
+
+
+.main-title {
+  color: #031927;
+  padding-top: 20px;
+  border-top: solid 1px #031927;
+  text-align: center;
+}
+
+footer ul {
+  list-style-type: none;
+  text-align: center;
+}
+
+footer ul li {
+  display: inline-block;
+  width: 150px;
+}
+
+a {
+  color: #F4743B;
+}
+
+a:hover {
+  color: #70B77E;
+}
+
+

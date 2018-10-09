@@ -6,21 +6,20 @@
 
 .box {
   display: inline-block; /* this makes elements in line with each other but take up a block of space */
+  color: white;
 
-  width: 248px; /* roughly half
-  /* if exactly 250 chrome can't fit side by side */
-  /* seems like a bug! */
+  width: 248px; /* roughly half, if exactly 250 chrome can't fit side by side, seems like a bug! */
 
   /* if only there were a way to include the border and padding in that calculation! */
 }
 
 #left {
-  color: #2514BC;
+  background-color: #2514BC;
   /* add a border */
   /* add some padding */
 }
 
 #right {
-  color: #FF220C;
+  background-color: #FF220C;
 
 }
