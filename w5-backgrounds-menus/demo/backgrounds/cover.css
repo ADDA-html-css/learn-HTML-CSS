@@ -1,0 +1,14 @@
+body{
+	margin: 0;
+	font-family: "Helvetica Neue";
+}
+
+div{
+	padding: 100px;
+	background-color: cornFlowerBlue;
+}
+
+.bg-image{
+  /* I want to use this image as a background image */
+  /* https://wallpaperscraft.com/image/futurama_doctor_zoidberg_69273_1920x1080.jpg */
+}
