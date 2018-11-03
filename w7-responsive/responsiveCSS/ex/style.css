@@ -1,0 +1,14 @@
+*{
+	box-sizing: border-box;
+}
+
+.three{
+	display: none;
+}
+
+html{
+	background-color: #eee;
+	padding: 0;
+	font-family: helvetica;
+	font-size: 17px;
+}
