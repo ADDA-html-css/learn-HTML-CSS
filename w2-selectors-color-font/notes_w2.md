@@ -26,6 +26,7 @@
 - run through slides.
 - Show simple example, apply a class, apply an id
 - Show an example with both a class and id, see which one will be applied.
+- show how to select multiple things at once, separated by commas
 
 Class and ID Exercise
 HTML Class Exercise
