@@ -20,7 +20,43 @@ notes
 <li><a href="contact.html">contact</a></li>
 </ul>
 ```
--add some simple style, list-style-type, inline, hover
+-style it
+```css
+/* remove bullets, remove default space */
+.menu {
+  list-style-type: none;
+margin: 0;
+padding: 0;
+}
+
+/* make the list items look more like buttons */
+
+.menu li {
+border: 1px solid black;
+width: 100px;
+       text-align: center;
+display: inline-block;
+
+margin: 0;
+}
+
+/* style the the visited links */
+a {
+  text-decoration: none;
+color: black;
+
+display: block;
+width: 100%;
+}
+
+/* make a hover effect... */
+a:hover{
+color:green;
+      background-color: lightgrey;
+  }
+```
+
+
 
 ## 2 Positioning
 - static, default

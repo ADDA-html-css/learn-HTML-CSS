@@ -1,52 +1,18 @@
 ## Warm Up
 
 ## Objectives
-- I can build a menu of links to access different pages
 - I can use the CSS background properties to insert images and backgrounds.
 
-## Mini-Lesson 1, build a menu
--build the menu in the index.html
-```html
-<ul class="menu">
-<li><a href="index.html">home</a></li>
-<li><a href="about.html">about</a></li>
-<li><a href="contact.html">contact</a></li>
-</ul>
+## Clearfix
+-Show a solution clearfix problem/solution
+-float the logo left or right
+-What happens?
 ```
--style it
-```css
-/* remove bullets, remove default space */
-.menu {
-  list-style-type: none;
-margin: 0;
-padding: 0;
+.clear-fix:after {
+  content: "";
+  display: table;
+  clear: both;
 }
-
-/* make the list items look more like buttons */
-
-.menu li {
-border: 1px solid black;
-width: 100px;
-       text-align: center;
-display: inline-block;
-
-margin: 0;
-}
-
-/* style the the visited links */
-a {
-  text-decoration: none;
-color: black;
-
-display: block;
-width: 100%;
-}
-
-/* make a hover effect... */
-a:hover{
-color:green;
-      background-color: lightgrey;
-  }
 ```
 
 ## Mini-Lesson 2, CSS background property
@@ -151,6 +117,119 @@ background-size: 200px;
 margin-top: 100px
 }
 ```
+
+## Mini-Lesson 3: flexbox
+- There is html in a starter file
+```css
+h1{
+	text-align: center;
+	font-family: helvetica;
+}
+.wrapper{
+	width: 900px;
+	margin: 0 Auto;
+	background-color: #BADA55;
+
+	display: flex;
+  align-items: center;
+	/* flex-wrap: wrap; */
+} 
+.box{
+	background-color: orange;
+	width: 100px;
+	height: 100px;
+	margin: 10px;
+
+	/* flex-grow: 1; */
+}
+.fig{
+  height: 300px;
+	flex-grow: 3;
+}
+```
+ 
+Play, 5 minutes or so
+- Go to this website, http://codepen.io/enxaneta/full/adLPwv/
+- Mess around with the flexbox features.
+
+### Position Exercise
+- build a flex box menu, use menu-flex.html and menu-flex.html
+- follow the comments.
+- Solution
+
+```
+* {
+  box-sizing: border-box;
+  font-family: 'Chewy', cursive; 
+}
+body {
+  background-color: #AEECEF; 
+}
+
+#wrapper {
+  width: 900px;
+  margin: 0 auto;
+}
+
+.header {
+  padding: 20px;
+  background-color: #fff; 
+}
+
+.menu {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+
+  /* make this a flex container */
+  display: flex;
+   
+  /* play with the spacing */ 
+  justify-content: flex-start; 
+   
+  /* play with alignment */
+  align-items: center;
+}
+
+.menu a {
+  display: block;
+  width: 100%;
+  padding: 15px;
+  text-align: center;
+   
+  font-size: 40px;
+  text-decoration: none;
+  color: #F991CC;
+   
+}
+
+.menu a:hover {
+  background-color: #F991CC;
+  color: #FFF; 
+}
+ 
+/* another psuedo class */
+/* this one only effects the first li in main */
+/* here it is applying flxe grow to just the first li */
+/* turn it on and off to see what it does */
+.menu li:first-child {
+  /* flex-grow: 1; */
+}
+ 
+.menu .logo{
+  background-image: url("https://media.giphy.com/media/ISjYZh2up6Pn2/giphy.gif");
+  width: 150px;
+  height: 150px;
+  background-size: cover;
+  margin-right: auto; 
+}
+
+h2 {
+  font-size: 40px;
+  color: #2A1E5C;
+}
+```
+
 
 ## Show Hosting with Github
 - Show how to publish/push
