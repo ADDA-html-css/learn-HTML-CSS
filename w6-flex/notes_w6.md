@@ -100,61 +100,7 @@ Introduce Transitions
 	<footer><nav>This is the footer</nav></footer>
 
 ```
->maybe kill the exercise?
 
-### Exercise, build a sample blog page
-- Create a simple "blog" style page.
-- Don't worry about any styling right now.
-
-Create the following elements using semantic html
-1. Create a header for the page. Inside the header, put the following elements,
-  + a div with the id of logo
-  + a nav element
-  2. Create a main, inside main put in the following elements
-  + A page heading
-  + A paragraph with a description of your sweet blog.
-  3. Still inside Main Create a fake article. inside the article include the following.
-  + A header, with heading title and a date
-  + A paragraph with some filler content
-  + A footer, with the authors name
-  4. Create an aside, use an address tag to put the address of your sweet blog
-  5. Create a page footer, include a link to something cool.
-  6. Copy and paste your code into this [validator](http://validator.w3.org/#validate_by_input)
-
-Finished Early? Add some *style*
-
-```html
-    <header> 
-        <div id='logo'> </div> 
-            <nav> Navigation </nav> 
-        
-    </header> 
-
-
-<main> 
-    <header> <h1> Newspaper </h1> </header> 
-    <p> Read all about the news here on my blog! </p> 
-    <article> 
-        <header> <h2> Apple Asks Court to Vacate Order to Unlock iPhone </h1> </header>
-        <title> New York Times </title>
-        <date> 2/25/16 </date> 
-        <p> 
-        SAN FRANCISCO — Apple on Thursday filed its formal opposition to the federal court order requiring it to help law enforcement officials break into an iPhone, setting the stage for more legal wrangling in a case that has pitted the world's most valuable company against the United States government.</p>
-<p>
-In its brief, filed in federal court in California, Apple said that the court should drop an order issued last week that essentially asked the company to create a tool that law enforcement agents can use to break into an iPhone.
-</p>
-<p>
-"Apple strongly supports, and will continue to support, the efforts of law enforcement in pursuing justice against terrorists and other criminals — just as it has in this case and many others," the company said in its motion. "But the unprecedented order requested by the government finds no support in the law and would violate the Constitution."
-</p>
-        <footer> 
-            <author> KATIE BENNER  </author> 
-        </footer> 
-    </article> 
-</main>
-        
-```
-
-# push to week 7
 ## Mini-lesson 2, Responsive design.
 
 ### Responsive Design
@@ -174,7 +120,6 @@ Your small screen styles are in your regular screen CSS and then as the screen g
 How do we achieve this? 
 - Media Queries
 - Responsive units
-
 
 ### Media Queries
 
@@ -215,9 +160,9 @@ We want to get away from a reliance on using pixels as our only unit.
 - rems, literally "root ems", size is based off the size of the root (html tag) and scaled by the number
   + ex: root size is 10px, child size is 3rems, this is equivalent to 30px; 
 - demo the percent and the rems by adding onto sample code...
- 
--final code
-```
+- final code
+
+```CSS
 /* base rules, will be applied to everyting */
 html {
   background-color: red;
@@ -319,7 +264,7 @@ aside {
 }
 ```
  
-###You Do
+### You Do
 - Don't Touch html!
 - Write CSS, in mobile, the two divs should sit on top of each other.
 - when the window size is greater than 600, the two divs should site side by side.

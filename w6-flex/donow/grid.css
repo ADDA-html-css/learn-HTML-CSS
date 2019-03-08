@@ -10,8 +10,8 @@
   /* make the width and height 200px */
   /* make the margin 10px on all sides */
   /* add some background color, or a background image if you are feeling fancy */
-  /* how can you get the elements be side by side with each other? hint in line with each other */
-  /* float the grid items to the left */
+  
+  /* to create the grid, you can either use floats or make the wrapper a flex container. You chose! */
 }
 
 
