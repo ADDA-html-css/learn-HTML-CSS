@@ -66,89 +66,58 @@ We want to get away from a reliance on using pixels as our only unit.
 - demo the percent and the rems by adding onto sample code...
  
 -final code
-```
-/* base rules, will be applied to everyting */
-html {
-  background-color: red;
-  font-size: 14px;
-}
-/* need some clear fix */
-.clear:after {
-  content: "you can't see me";
-  visibility: hidden;
-  height: 0;
-  clear: both;
-  display: block;
-}
-/* generic menu styling */
-menu {
-  padding: 0;
-}
-menu ul {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-}
-/*mobile first rules, going to overwrite later*/
-h1 {
-  font-size: 3rem;
-}
-p {
-  font-size: 1.25rem;
-}
-aside {
-  display: none;
-}
-.wrapper {
-  padding: 5%;
-}
+```css
 /*overriding the rules for different screen sizes*/
-@media (min-width: 500px) {
-  /*all the rules i'm going to change go in here*/
-  html {
-    background-color: green;
-    font-size: 20px;
+@media (min-width: 800px) {
+  .logo {
+    float: left;
+    position: absolute;
+    top: -1rem;
   }
-   
-  .wrapper {
-    max-width: 900px;
-    background-color: grey;
-  }
-   
-  aside {
-    display: inline-block;
-    width: 30%;
-    background-color: white;
-  }
-
-  article {
-    display: inline-block;
+  nav {
     float: right;
     width: 60%;
-    background-color: blue; 
+  }
+  main {
+    margin-top: 8rem;
+  }
+  .characters {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .card {
+    flex-basis: 30%;
+    margin: 1%;
   }
 }
-@media (min-width: 900px) {
-  html {
-    background-color: lightBlue;
-    font-size: 25px;
-  }
-   
+@media (min-width: 1100px) {
   .wrapper {
+    width: 1000px;
     margin: 0 auto;
+    padding: 1rem 0;
   }
-   
-}
-@media (min-width: 1200px) {
-  html {
-    background-color: purple;
-    font-size: 30px;
+  header {
+    width: 25%;
+    float: left;
   }
-}
-/*this is a media query for just printing!*/
-@media print {
-  h1 {
-    color: blue;
+  .logo {
+    position: relative;
+    width: 100%;
+    top: -15rem;
+    background-size: contain;
+  }
+  .main-menu {
+    margin-top: 10rem;
+    width: 100%;
+  }
+  .main-menu ul {
+    flex-direction: column;
+
+  }
+  main {
+    width: 70%;
+    float: right;
+    margin-top: 0rem;
   }
 }
 ```
@@ -230,9 +199,31 @@ footer{
 
 }
 ```
+# Wordpress Info
 
-## Start Final Project - 20 min
-- Ideate
-- Wireframe
-- Mood board
-- Start HTML
+## Setting Up MAMP/XAMP
+  - slides for why
+  - help students run through setup
+
+## Wordpress Dashboard: Content
+  - Slide, Content and Admin links
+  - Slide, posts vs pages
+  - Walk through adding a post using http://www.wpfill.me/
+  - Walk through adding a page
+  - WISIWG vs visual
+  - Show deleting posts and pages
+  - Slide, Your Turn: Add a simple post and a contact page, create a blog page, leave it empty for now
+  
+## Wordpress Dashboard: Admin
+  - Slide, Jargon: Widgets, Plugins, Themes, Navigations
+  - Walk through Adding and removing a Widget
+    - Add some simple text
+  - Walk through adding a custom menu
+    - Add the custom menu to the sidebar widget
+  - Walk through adding a plugin, show using Akismet
+  - Walk through changing the theme, change to another WP starter theme
+  - Walk through setting up a static front page and a blog page
+  - Your Turn: add the "Contact Form 7" plugin to your site. Add some other widget to the sidebar.
+  - Slide, shortcodes
+  - Walk through connect contact form 7 to the wp build a form.
+

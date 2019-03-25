@@ -1,0 +1,85 @@
+/* base rules, will be applied to everyting */
+html {
+  /* background-color: red; */
+  font-size: 16px;
+  font-family: 'Francois One', sans-serif;
+}
+
+/* need some clear fix */
+.clear:after {
+  content: "you can't see me";
+  visibility: hidden;
+  height: 0;
+  clear: both;
+  display: block;
+}
+
+/* generic menu styling */
+nav {
+  padding: 0;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.wrapper {
+  padding: 5%;
+}
+ 
+/*mobile first rules, going to overwrite later*/
+header {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.logo {
+  width: 300px;
+  background-repeat: no-repeat;
+  height: 137px;
+  margin: 2rem auto;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/1/1b/Back_to_the_Future_film_series_logo.png");
+
+}
+
+.main-menu ul {
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+}
+
+.main-menu ul li a {
+  text-decoration: none;
+  color: #de8c25;
+}
+
+.main-menu ul li a:hover {
+  color: #21b4f0;
+}
+
+main {
+  margin-top: 3rem;
+}
+
+.hero, .headshot {
+  width: 100%;
+}
+
+.headshot {
+  border-radius: 100%;
+  max-width: 350px;
+  display: block;
+  margin: 0 auto;
+}
+
+.card {
+  margin-top: 3rem;
+}
+
+.card h2 {
+  color: #21b4f0;
+}
+
+
