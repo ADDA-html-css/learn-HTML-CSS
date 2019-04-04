@@ -1,0 +1,10 @@
+/*
+ Theme Name: Generic Child Theme 
+  Template: generic 
+*/
+
+/* this rule is just for testing, delete once you know the style is being applied */ 
+body {
+  background-color: blue;
+}
+
